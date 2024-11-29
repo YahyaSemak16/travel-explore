@@ -1,0 +1,709 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    height: 100vh;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fbfbfb;
+    height: 40px;
+}
+.header ul {
+    display: flex;
+    list-style-type: none;
+    margin: 10px;
+}
+.header ul li a {
+    margin: 17px;
+    color: lightgray;
+    text-decoration: none;
+    font-weight: 600;
+}
+.header ul li a:hover {
+    color: orangered;
+}
+.header .home {
+    color: orangered;
+}
+.header p {
+    color: black;
+    font-weight: 700;
+    font-size: larger;
+    margin: 10px;
+}
+.header p span {
+    color: orangered;
+}
+.body {
+    background-image: url(gettyimages-1368629737-612x612.jpg);
+    height: 400px;
+    background-size: contain;
+}
+.body h6 {
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+.body .child {
+    font-size: 40px;
+    font-weight: 700;
+}
+.body .input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body input {
+    width: 700px;
+    height: 30px;
+    font-size: larger;
+}
+.body input:focus {
+    outline: none;
+}
+button {
+    height: 30px;
+    font-size: larger;
+    color: white;
+    outline: none;
+    font-weight: 500;
+    background-color: rgb(255, 11, 11);
+}
+button:hover {
+    background-color: rgb(255, 67, 67);
+}
+#listings {
+    color: lightgrey;
+    font-weight: 300;
+}
+.layouts .restaurants img {
+    margin-top: 10px;
+
+}
+.automotion {
+    height: 150px;
+    width: 150px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    box-shadow: lightgrey 2px 2px 3px;
+}
+
+.automotion:hover {
+    background-color: rgb(255, 88, 88);
+    color: #ffffff;
+    box-shadow: grey 2px 2px 4px;
+}
+.healthcare {
+    height: 150px;
+    width: 150px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    box-shadow: lightgrey 2px 2px 3px;
+}
+.healthcare:hover {
+    background-color: rgb(255, 88, 88);
+    color: #ffffff;
+    box-shadow: grey 2px 2px 4px;
+}
+.hotels {
+    height: 150px;
+    width: 150px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    box-shadow: lightgrey 2px 2px 3px;
+}
+.hotels:hover {
+    background-color: rgb(255, 88, 88);
+    color: #ffffff;
+    box-shadow: grey 2px 2px 4px;
+}
+.destination {
+    height: 150px;
+    width: 150px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    box-shadow: lightgrey 2px 2px 3px;
+}
+.destination:hover {
+    background-color: rgb(255, 88, 88);
+    color: #ffffff;
+    box-shadow: grey 2px 2px 4px;
+}
+.restaurants {
+    height: 150px;
+    width: 150px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    box-shadow: lightgrey 2px 2px 3px;
+}
+.restaurants:hover {
+    background-color: rgb(255, 88, 88);
+    color: #ffffff;
+    box-shadow: grey 2px 2px 4px;
+}
+.layouts {
+    display: flex;
+    margin: 150px;
+    justify-content: center;
+    flex-direction: row;
+}
+#how-it-work-page {
+    margin-top: 105px;
+}
+#how-it-work-page>h3 {
+    text-align: center;
+    color: grey;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+#how-it-work-page .sous-titre {
+    text-align: center;
+    color: grey;
+    font-weight: 300;
+}
+.layouts2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.choose-what-to-do p {
+    margin: 13px;
+}
+.img-icon {
+    margin: auto;
+    margin-top: 13px;
+    background-color: rgb(194, 194, 194);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.img-icon img {
+    margin-top: 23px;
+}
+.layouts2 .choose-what-to-do {
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    border-radius: 4px;
+    border: lightgrey solid 2px;
+    margin: 22px;
+}
+.layouts2 .find-what-you-want {
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    border-radius: 4px;
+    border: lightgrey solid 2px;
+    margin: 22px;
+}
+.find-what-you-want p {
+    margin: 13px;
+}
+.layouts2 .explore-amazing-place {
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    border-radius: 4px;
+    border: lightgrey solid 2px;
+    margin: 22px;
+}
+.explore-amazing-place p {
+    margin: 13px;
+}
+.layouts2 button {
+    font-size: 12px;
+    height: 30px;
+    width: 80px;
+    border: none;
+}
+.layouts2 h3 {
+    color: #363636;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.layouts2 p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(116, 116, 116);
+}
+.find-what-you-want:hover ,
+.choose-what-to-do:hover ,
+.explore-amazing-place:hover{
+    box-shadow:  3px 4px 10px rgb(206, 206, 206),-0.1em 0.4em 10px rgb(206, 206, 206);
+    border: rgb(206, 206, 206)  1px solid;
+}
+#explore-page{
+    background-color: rgb(243, 243, 243);
+}
+#explore-page>h3 {
+    padding: 100px;
+    padding-bottom: 3px;
+    text-align: center;
+    color: grey;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+#explore-page .explore-mini-title {
+    text-align: center;
+    color: grey;
+    font-weight: 300;
+}
+.layouts3 {
+    display: flex;
+    flex-direction: column;
+}
+.layouts3 .line1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.layouts3 .line2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.line1 .tommy-hilfinger-bar {
+    margin: 12px;
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: lightgrey 1px 2px 2px;
+}
+.tommy-hilfinger-bar h3{
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-left: 13px;
+    letter-spacing: 2px;
+
+}
+.line1 .swim-and-dine-resort {
+    margin: 12px;
+    width: 400px;
+    background-color: #ffffff;
+}
+.line1 .swim-and-dine-resort h3{
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-left: 13px;
+    letter-spacing: 2px;
+}
+.line1 .europe-tour {
+    margin: 12px;
+    width: 400px;
+    background-color: #ffffff;
+}
+.europe-tour h3{
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-left: 13px;
+    letter-spacing: 2px;
+}
+.line2 .bungalow-with-swimming-pool {
+    margin: 12px;
+    width: 400px;
+    background-color: #ffffff;
+}
+.bungalow-with-swimming-pool h3{
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-left: 13px;
+    letter-spacing: 2px;
+}
+.line2 .vintage-car-expo {
+    margin: 12px;
+    width: 400px;
+    background-color: #ffffff;
+}
+.vintage-car-expo h3{
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-left: 13px;
+    letter-spacing: 2px;
+}
+.line2 .thailand-tour {
+    margin: 12px;
+    width: 400px;
+    background-color: #ffffff;
+}
+.thailand-tour h3{
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-left: 13px;
+    letter-spacing: 2px;
+
+}
+.line1 .rating-price-type {
+    display: flex;
+    flex-direction: row;
+}
+
+.line2 .rating-price-type {
+    display: flex;
+    flex-direction: row;
+}
+.type{
+    margin-left: 13px;
+}
+.type p{
+    color: rgb(135, 135, 135);
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-left: lightgrey solid 1px;
+}
+.rating{
+    margin-left: 13px;
+}
+.rating p{
+    color: rgb(135, 135, 135);
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.num-rate{
+    margin-left: 13px;
+}
+.num-rate p{
+    color: rgb(135, 135, 135);
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.price{
+    margin-left: 13px;
+}
+.price p{
+    color: rgb(135, 135, 135);
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-left: lightgrey solid 1px;
+}
+.costumer-opinion p{
+    width:320px;
+    margin-right: 5px;
+    margin-top: 0px;
+    color: rgb(135, 135, 135);
+    text-transform: capitalize;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.costumer-opinion img{
+    height: 50px;
+    width: 50px;
+}
+.costumer-opinion{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 13px;
+    border-bottom: rgb(198, 198, 198) solid 1px;
+}
+.statue .icons{
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    height: 17px;
+    width: 17px;
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.icons img{
+    margin-left: 10px;
+}
+.statue{
+    display: flex;
+    justify-content: space-between;
+}
+.price span{
+    color: rgb(255, 110, 110);
+}
+.statue p{
+    margin-left: 5px;
+    color: rgb(255, 68, 68);
+}
+.vintage-car-expo .statue p{
+    color: rgb(0, 244, 0);
+}
+.swim-and-dine-resort .statue p{
+    color: rgb(0, 244, 0);
+}
+.tommy-hilfinger-bar .rating p{
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    background-color: rgb(119, 119, 253);
+    border-radius: 3px;
+}
+.swim-and-dine-resort .rating p{
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    background-color: rgb(131, 253, 83);
+    border-radius: 3px;
+}
+.europe-tour .rating p{
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    background-color: rgb(255, 227, 43);
+    border-radius: 3px;
+}
+.bungalow-with-swimming-pool .rating p{
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    background-color: rgb(180, 70, 253);
+    border-radius: 3px;
+}
+.vintage-car-expo .rating p{
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    background-color: rgb(131, 253, 83);
+    border-radius: 3px;
+}
+.thailand-tour .rating p{
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    background-color: rgb(254, 186, 50);
+    border-radius: 3px;
+}
+.thailand-tour:hover ,
+.bungalow-with-swimming-pool:hover ,
+.europe-tour:hover ,
+.vintage-car-expo:hover ,
+.swim-and-dine-resort:hover ,
+.tommy-hilfinger-bar:hover{
+    box-shadow:  3px 4px 10px rgb(206, 206, 206),-0.1em 0.4em 10px rgb(206, 206, 206);
+    border: rgb(206, 206, 206)  1px solid;
+}
+#review-page .review-title{
+    padding: 100px;
+    padding-bottom: 3px;
+    text-align: center;
+    color: grey;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+#review-page .mini-r-title{
+    text-align: center;
+    color: grey;
+    font-weight: 300;
+}
+.reviews {
+    display: flex;
+    justify-content: space-between;
+}
+.reviews .review1, .review2 ,.review3 ,.review4 ,.review5{
+    width: 295px;
+    height: 285px;
+    background-color: #ffffff;
+    border: rgb(206, 206, 206) solid 1px;
+}
+.reviews .review1:hover,
+.review2:hover ,
+.review3:hover ,
+.review4:hover ,
+.review5:hover{
+    box-shadow:  3px 4px 10px rgb(206, 206, 206),-0.1em 0.4em 10px rgb(206, 206, 206);
+    border: rgb(206, 206, 206)  1px solid;
+}
+.reviews .name-place-rate{
+    display: flex;
+    flex-direction: row;
+}
+.reviews .class{
+    margin-left: 10px;
+}
+.name-place-rate>img{
+    height: 50px;
+    width: 50px;
+    margin: auto 0px auto 10px;
+}
+.class h3,p{
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+}
+.class p{
+    margin-top: -20px;
+}
+.stars{
+    margin-top: -10px;
+}
+.stars img{
+    height: 20px;
+    width: 20px;
+}
+.reviews .review1 p,
+.review2 p,
+.review3 p,
+.review4 p,
+.review5 p{
+    margin-left: 15px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+}
+#blog-page .title{
+    padding: 100px;
+    padding-bottom: 3px;
+    text-align: center;
+    color: grey;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+#blog-page .mini-one{
+    text-align: center;
+    color: grey;
+    font-weight: 300;
+}
+.articles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.article1
+,.article2,
+.article3{
+    width: 400px;
+    margin-left: 32px;
+    background-color: #ffffff;
+    border: rgb(206, 206, 206) solid 1px;
+}
+.postDate-time{
+    display: flex;
+    justify-content: space-between;
+}
+.postDate-time
+.posted{
+    margin-left: 22px;
+    color: rgb(135, 135, 135);
+    width: 150px;
+    text-transform: capitalize;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-right: solid 1px rgb(135, 135, 135);
+}
+.posted span{
+    color: black;
+}
+.time{
+    margin-right: 82px;
+    text-transform: capitalize;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(135, 135, 135);
+}
+.article1 .paragraph
+,.article2 .paragraph,
+.article3 .paragraph{
+    width: 380px;
+    margin-left: 15px;
+    color: rgb(135, 135, 135);
+    text-transform: capitalize;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.article1 h3
+,.article2 h3,
+.article3 h3{
+    font-weight: 500;
+    text-align: center;
+}
+.article1:hover
+,.article2:hover,
+.article3:hover{
+    box-shadow:  3px 4px 10px rgb(206, 206, 206),-0.1em 0.4em 10px rgb(206, 206, 206);
+    border: rgb(206, 206, 206)  1px solid;
+}
+#contact-page{
+    background-color: rgb(243, 243, 243);
+}
+#contact-page h3{
+    padding: 100px;
+    padding-bottom: 3px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    letter-spacing: 2px;
+}
+#contact-page p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+}
+#contact-page input {
+    width: 700px;
+    height: 30px;
+    font-size: larger;
+    margin: 22px;
+    margin-right: 0px;
+}
+#contact-page  input:focus {
+    outline: none;
+}
+#contact-page button {
+    height: 30px;
+    font-size: larger;
+    color: white;
+    outline: none;
+    font-weight: 500;
+    background-color: rgb(255, 11, 11);
+    margin: 22px;
+    margin-left: 0px;
+    border: none;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.footer .header{
+    margin-top: 52px;
+    height: 60px;
+    border-bottom: solid 1px rgb(206, 206, 206)  ;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+}
+.left img{
+    height: 20px;
+    width: 20px;
+    margin: auto;
+}
+.left p:hover{
+    color: rgb(255, 38, 38);
+}
