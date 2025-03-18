@@ -1,0 +1,438 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>template3</title>
+	<link rel="stylesheet" href="styletemplate3.css">
+</head>
+<body>
+	<div id="home-page">
+		<div class="header">
+			<p>List <span>Race</span></p>
+			<ul>
+				<li><a href="#home" class="home">Home</a></li>
+				<li><a href="#how-it-work-page">How it work</a></li>
+				<li><a href="#explore-page">Explore</a></li>
+				<li><a href="#review-page">Review</a></li>
+				<li><a href="#blog-page">Blog</a></li>
+				<li><a href="#contact-page">Contact</a></li>
+			</ul>
+		</div>
+		<div class="body" >
+			<h6 class="child">BEST PLACE TO FIND AND EXPLORE <br> THAT ALL YOU NEED</h6>
+			<h6 id="parag">find best place,Restaurant,hotel,Real state and many more think in just One click</h6>
+			<div class="input">
+				<input type="text" placeholder="Ex: place, resturent, food, automobile">
+			<button>search</button>
+			</div>
+			<div class="layouts">
+				<div class="restaurants">
+					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAChElEQVR4nO2bwUrDQBCGfwXRmz6PCB7Uk5aC+BjqE1j0IgpqvXr35EOoxVDEk2fxDfQg2CJ6GglMIMSk2Z1Mstu4PwzdLDuT2a+zm3RRICgoqyEAaqlFMBC13IwBaEkaz1keFADATen5kkfUYgAPkgSmfQ8QxyHlBJqqHLV5kFICUVMl6ysA16oNQBfAAMCY7R5AxzB2l8ePAHwCuAOwVZNvLQBOJ5TtcUnck4Z91QF0uf8HQC81rsd9cXuzIKaJb0fZVx3AgPsPcsYlid0WxLw38L1T9lUHMDLYveO1maexge9I2VcdAFV4frvwrQ2A6bVr3wAAYQlAdQlEFV5hXfiqV8C0KQCA5Rc5tHjkTJuFU2HUuWY8l/G8KABAq83ZqTB5YE5OhV1LPA8KAPC/1n5WrhP2BoCWFgA8c8wv/oxSm27SF4+ZV7urRwD2ON4LgENuX7HF7SMAr9zebSOAJ463nZr0PlsCY4fbj20EMOZ4i6myX2NLlsNSycGoRM43wUgYT/uXqTMAJHjDTN7YvHwKkEXA7NgyX9vx2vlOdJwDcJHqP+c+1wDK8lIDcJFTVmceACjLSw3AO18vA1jh9psHAMryUgNAguSaAKCRZ66KAtnsrk0CKMpLDUAkOGBoAkBZXmoA6qwi9W9PIwYJHIeZs3dtANn4dc3DKlmTCWevY7sBMMt2YwggD4gtVGORwjdWdP3Bn5ds6T5JvFoBTJI04VUA36nr+I+c1ivEs8nRWGQRXFIR/dR132C8yf2k88iVTXnZAsirgA3lkg97AJT3AMoJVGXTSp4CMwCuBUtImpOxqGUWANiKpOQqxnN13z8KAPDP94DIg6S1TONfb4LQRv0C6YWJQclL54QAAAAASUVORK5CYII=">
+					<p id="mini-title">Restaurant</p>
+					<p id="listings">150 listings</p>
+				</div>
+				<div class="destination">
+					<img src="data:image/png;base64,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">
+					<p id="mini-title">destination</p>
+					<p id="listings">214 listings</p>
+				</div>
+				<div class="hotels">
+					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC60lEQVR4nO2bP2gUQRjFf2AgbcTDq7SxsjqMpQbhEMtYiY2JnUWKgKDYWIlicAtLrZMuhdZXiZUIIkkXr0kXlkCSMpDmZOA7WZednZn9O3s3D16RmdmZb17mz9uZPWgXfeAqc4yvwBfmGCPh3GIUBCCMgBFzhDXgVYJjYTLtCTOKK8DEkqrszKEvnVOjQIc1KaPKzhz68ybAXeAn8Eu4L507TKSleShl9hNpqo47dBAvpDO7JTmRujorQFl0QoAF4BZwO8GPEvz072VgUcr3UmXzOJG6kmmqrUt4hNeW29uWlP/tsCXqqNr0BhFwCtw3cEnK37Aom8dTadMbREDcYHuqrSAANeFpzj6to/qPXBR4rigvpE3X59ZtBNgGzhz36gPgvII935bn0qbLM2fSNysB9mZwDdhrUoBexn7eqzC/dgGOUu/oJn5PCfAnY98+qDA/ljZdYjxyEWBSgEkBYpl30317t4b8IjE2NgXi1BCtO9+7NSAOAvDfPh3XkN/YCFgAVoFHKfZyRsBmxj68WWF+WoBeRnyrEntpAe5pFpS3OQLUjbQA7zQxqthLC/BAKlsBLguPDXO8aR8QSUzT+FYkZhX7FG8M55FGAQYOi1wTPiCv/UGGANbYrkCAJnyAqwDPgYdFBBhq5td7j3zAliZGFXvpNWAR2EjZypfANY8EuC4xJWPcSJxBlhLABlkBBh9A8AG1IfgA3H1AaSM06LgPaFSA2EMfUFiAYfABBB9gQvABhPMAwnkAbt8P5NF0/++9Dyj6/YDt/b93PuAZ8K2C7wds7/+98wEm1C1A6+cBN4HHBgFcp4CLAK2fB3yQuzcdVLAnGYvdD2E6/cRRAO/uBdLQ5et+L2DqYOfuBaKaBfDuXqBpAbz3AVEDAnh1HjBTAgwLnAc0LUDrPiBqWYDWfUDUsgA2CAIQRgDWU2Ds8O6uuKOxuqb8PCu8k1OfKT+LY1sBPhd4cekKP9kIsFTyW36fOf29wj/8BX/yIJf7J4LzAAAAAElFTkSuQmCC">
+					<p id="mini-title">Hotels</p>
+					<p id="listings">185 listings</p>
+				</div>
+				<div class="healthcare">
+					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACQUlEQVR4nO2ZS0oDQRCGP+IqegM14E5Fb+CAgitF0Z1H8BFfRBeCXsKNKO48gaLeQ3yhp9DELIwiIwUdGJqexOl0z4wwPzQMTKb6/zvVVdXVUKBAgTRRAdaBG+AZeAfe1PO1ejdMDiGkjoFPIOwyvoALYIScYE6tdJhwNIDlrMnXgB8L8qEa8u1WVuQPYkjdA1VgFCirMQZsAg8xIhbyQL4FbAClDt+VlLiW9m0dGMqS/AcwncDGrEHEKRmSDyxsVQ3Ryeu/sG8g3wRmLO2VgDvN3hr/YOWj2NZsXvGPyAvGNbuSsXPtNjrKmm0pO7yufNPRyrfR70tAXJL6BlZcTYInF4oj70PEtmb70pfbfHsQ0Qc8anZXfUWbFQ8iNg2JbNAH+TZcipg2lBInPsm7FBEo+1Eb77arX7NIUr2ICAzkpZyetyG/aDiM/DXD2ogIDORl7Nkevhs9lgdJRAQx5MV9rXCuGWolrOeTiAhck68YJpV2hy06iQhckzcdJO67HAN7EdF0TR7VdIoalITiAiYRoWvyghfNqHQPSEHEgatJ9CaU1OSuEPhym04CpCZ3gSlDaA6BIxzDhwt5iTZxuHa8iVMlj+qeRSd67CGMxrnNIR5RUbV3dEIRlfuVj+LMUEpIu++vmMmSfPtCom4QUe3iTn1qz7SyJN/GQkxvX/bEDjABDKgxCewCT76TVFJsObigkENR5ldEbxbkJfoskRMMJbykO0vzQiJpiJWNfAu8qrqmqZ5vVbiV3xQoUIB08AuAC+w9/b4hawAAAABJRU5ErkJggg==">
+					<p id="mini-title">Healthcare</p>
+					<p id="listings">200 listings</p>
+				</div>
+				<div class="automotion">
+					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACAUlEQVR4nO2XMUtcQRSFP7WOolHRKATMD9A/YGEQVAhJEdJahVjJFrqKEAXzA9KmshZstLQRu2wTkvyDQIKNRgNxEzdRGLkwggzj7n3z2HUeOwcOLPPmnTmHuffuLiQkJCS0E7ooMF4B34AxCoYBYAcwlgdABwXC61vmb7hAgdAB7DsBqkUrpcfAbyfEvZeSWxaNsBBbKZmMAaIrJZMxQHSlZAICRFVKJjBANKVkAgO0pJQ6gXGgBOwBJx7DzeAnYAsoA8+AJ9aLCiPW8C5w2iLDRsEL4AuwDawDL4EHrvkN4H8EZo2S57cbfz4CQyaQLyTA5zsentr6L9l+UNdiIEaBaWAR+AAcAscNAlTkxZqzKIYnWmBYi4fAJPAGeO94/YsnVewwrt+2CDAIvLPjrGopvbMJ9OcwMxigmzmAdPqvOo10BjwPMB+qmymAHHKlGGeX9pszi/lQXXUAucKfGWayjLw+hfm8ukYb4K2zLuN2CRi2XPKM4DVFgLy6Rhug4qyLsIuys+ejIkBeXdMowF0c8hw0lOH9Zumi3SjX6/sFmzfAcE5dfig3LiuuOoTLOXS/y+Y5ZYiaPeyRZdnTbCGsBeqK+VnqoCfD7QiPgN56gk3W9UIS/lMcIntmItD14mmDv5jybIp4dL3oBlaBr8AfS/m8Yp/FppuQkJCQ0Ca4BoEujRu0U8WWAAAAAElFTkSuQmCC">
+					<p id="mini-title">automotion</p>
+					<p id="listings">120 listings</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="how-it-work-page">
+		<h3>HOW IT WORKS</h3>
+		<p class="sous-titre">Learn More about how our website works</p>
+		<div class="layouts2">
+			<div class="choose-what-to-do">
+				<div class="img-icon">
+					<img src="icons8-idea-48.png" alt="">
+				</div>
+				<h3>choose what to do</h3>
+				<p>Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua</p>
+				<button>Read more</button>
+			</div>
+			<div class="find-what-you-want">
+				<div class="img-icon">
+					<img src="icons8-car-48.png" alt="">
+				</div>
+				<h3>Find what you want</h3>
+				<p>Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua</p>
+				<button>Read more</button>
+			</div>
+			<div class="explore-amazing-place">
+				<div class="img-icon">
+					<img src="icons8-place-48.png" alt="">
+				</div>
+				<h3>Explore amazing place</h3>
+				<p>Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua</p>
+				<button>Read more</button>
+			</div>
+		</div>
+	</div>
+	<div id="explore-page">
+		<h3 >Explore</h3>
+		<p class="explore-mini-title">Explore New place, food, culture around the world and many more</p>
+		<div class="layouts3">
+			<div class="line1">
+				<div class="tommy-hilfinger-bar">
+					<img src="e1.jpg" alt="" width="400px">
+					<h3>Tommy hilfinger bar</h3>
+					<div class="rating-price-type">
+						<div class="rating">
+							<p>5.0</p>
+						</div>
+						<div class="num-rate">
+							<p>10 Ratings</p>
+						</div>
+						<div class="price">
+							<p>Form <span>5$-300$</span></p>
+						</div>
+						<div class="type">
+							<p>Resturent</p>
+						</div>
+					</div>
+					<div class="costumer-opinion">
+						<img src="person.png" alt="">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua....</p>
+					</div>
+					<div class="statue">
+						<p>close Now</p>
+						<div class="icons">
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE3klEQVR4nM2aa4hVVRTHf3dyJktJLUjToJysGJJKCssYsYeUYyWVlL3JbxGR0wMsLcz80IcoCoLoYR96isVYqSlWkJY29cmyMtJeRqFjjyHNrjPqjRX/HbvTedx7z+PeP2y456y111pn77XXWnvvC9ljPHAn0AP0Aj+q9epdt3iaFhcCHwGVQBtQC77fBFxAE2E0sNoz8DNgMXCOaCU1+30u8BCwxeNfBRzb6I84HfhOBm0FrpbR1WA68Kn6muudRYNwJrBHhjwNtNYhow14VjL+AM6gYJib/CAD7s1A3n2S9X3RbubWxDMZynQz8xYFRidT+EWd7hTnZlsl+3wKgAuxs2J4RgELlDt2qfXKhUbG9LtSsjeSM9q9EBuFmcCvIXnDtV+Arpj+n4vvRHJEt5RYnoj6iAPieRmYLJdpU155VTTjmREhY4l45uX4Hf+UGBUltjB3cjNxW4yM28WzGxgRQj9P9NfJER9LSViIXODNRBKWxYTu0aLZmsoNO1Q3tcQEAXOhJEyJWdQt0mG6csNOoBxBM1c5VGVIbhNvXwS9DPxMjvhKIzk0hNYn48zIJBwuXgvLQRwpHV+SIz6UkvE5utbJoq0nR7gy4vKYeslCbBKWi3d+CO0q0Z4iR8yTkvtDaCOV7CoKsVG4IyH8LqkihKfGZCl5L4Le5SXEZco3LiFO8WbCeC6JkLFRPLmW9IcB/cBfwBERPDM02lElyu6YjzgKGFQQqHaDljq7XxHDM0L+v0khe6dGen6EOzlcL9kvUACuk7JXcpD9ZkwwyRzDgT+1zY0b3VphZU9Zrmt5phA8n0OF+oBkPk6BmCil2yLqrlrRqpOUQ8ApFIz1+hjbg6TFtZK1kgZgtpSvybD0uZgGYIiOhMwdJqWQM807zCjRINzqHXvWi/clYw4NRKsWfEUjWytmeocZWQSNVHDZ+IMa+5kbfaK+l9IEaAE21xHB5qiPLfSmQZeM+jpi9xhWHbi80UnBKAEdwFzgMWCdTjrGBeqkRVXIekS8L+n5eJ3QrAMelY6OLKOYbZZuBF7TnjxYkh/w7jVs+7tPJf6EhKpgQNcIY/XubOBgiPw+6b4h4ag1dgP1ooq4oOAVGnVLiCcE+i0S39oIuSWvIrgnQDNZsyVjRcjAlWWT2ZaIkyTEdbZR2gDcpalOwlAvHF8TQr9ZtC1VHht1SPeGwIz1yNbInV2/GPfKj+3QulZMk9KfgKMDZfouuWM1Jy1BtMumvbKxP+z8eKJ8232t89168aRk2R7dwc20LeY0GOftUs3m03ziu95dYBaRYrh3SXoTcItX9tsBXFqUZKvJfMcn7NNL3xXSolNu1K82GHGKXy+Okc1m+79wo3cR2WKxt0AfzFj2dMn91n+5UC9/zzjTDlFlvFK/s0KnbK3oOuM/Ct1NrUWcpcBxNB/GyjYXileHDZDF9YeB/WIaUHS4LOPb21rRKht6vP+0lGVrrF0TVBYMev69R19/tzLrsBwNHyYdlvnf9v5dUZFNyxNKoP9hjIS5Et1vNrXbgTeUpLp1gDAVOFXJa5Sag3tuF89UHfZ1S4bJ2h5Rc22WLWZTKozRBmqpdnNhf1vKqu2Xjuek0+4Uc4P5pmVU2xzZvcgTmnLbJdqe5BvgNzVnoHs2mvEYr/WxvnYparJMZl3r8W8q57Krse7F0AAAAABJRU5ErkJggg==">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAyElEQVR4nO2W0QqCMBRAz5N/kNCnVN9X1m+VEKRP+tAPuH5jEdzBEC033SLagYtj83q8V5zCj5EDJVDJOAoroAG0xB1Yx5bqGPIcaEVkjva4DdX2qicwYvuGbiHEV6C2qjJiZK6Wc4KjLXFUdChxBpyAx4jk3ZwCCrmGM8eB12aq2MTBR6wkeePR6q1V+eLPUM9cHyWJ+/xfqy/A+RviTyTxZFKro3VMSeJrw3dlJ7mdj7gY+My5xt5HnIncVO4SnUi9fgQSLMkTC/Sc/YXWQCAAAAAASUVORK5CYII=">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADTElEQVR4nO2ZS2xNURSGv2olaCkDIU0x8ChC0DLwSIzExCNCg4kYCErFSBkQBEmnpJ5BVJuYeM2olmEjRBAJYuCtiXhTVaKtrOQ/yU573J57e3q7m9wvOcm9Z+299lpnr73P2utAhgwZMmTwnCJgJ9AAPAGagVagCagHdgOTk9A3Bdijvk3S1Szddq8CmBSnA7OBm0BHhKsduA7MTKBvltq0R9TZAJT0xIGBQJUz4CfgNLBMs5MLDALGAEuB48Bntf0L7AeyHX32+6Bkgb5jwBLpMF250r0cOKM2wQM6AuQk68QI4JaU/AQOAMMi9BsK7FOYWN/zcsCuWt0z2V617Y5hcr7FmZ3hycxE4MRrhUKyWGi9ko5ax4mXwIwU9JUAbxxnIs1MleNEAakzTjqCWDfHxvZAX4HjzOEoC7td4ZTKTIQ9yVZdxTHoK1aYtXWnL9idbE3ERYWuuDgkG22LDqXI2U2iLOyoBIs9LvKd3XFiWINdEtoW6ztnZeuOMGG9hLaH+84K2XojTPhMwgn4T5FsfRom/CFhHv6TJ1vN5i4Eb09LFXxniJN1dOGdhD15CaaLQtlqL8guPJSwR5lmmpgjWx+ECWsk3Iz/bJWt58KE5RJW4z81snXL/05sJvzi+YIfDHyTrbYNh3JPDUrxlzWy8U6iRtvUyBzKwj+ygPuysay7aWtSw5X4xyrZ9jZK+Jc7e7Rlmr6QLwf+u8g7Y8fIu+pgWaYvVMum28kcC6Y7BYRN9D1lsuUXMDXZzhvU+TewiL5jsWwwW9anqiQoRFgFcB7pZ4ESw0gFh0RYLF5wnEnnzCwEvmvsi3Ecl63OddWJ0bX0Pms1lo15STbEQrZKmEGN6mQq5cuI41Q6Zdqa3hgnS+XQNg1yTaXVuDBdddLdprJqr2YXVrD+qgGfA3Nj0DkfeOEkrVbYTgtWoHjkVN4rU4zjHH1z+SNdT5SFp70AcMpZN43A+CQfRqPz2eCEPiv06QsrOO+36AkPSNDe4n6jU7V5r28uXjASuOzMTp0KBJ0pVFGtw9lara93lAIfZKRtCKsdmVUwPzoL2mbFa0YDV5ynbmnOUee/zdwo+hHrlNYEDtibejv9lGnAY132u1+T79lJMwPp4B+umggDgRN8wAAAAABJRU5ErkJggg==">
+						</div>
+					</div>
+				</div>
+				<div class="swim-and-dine-resort">
+					<img src="e2.jpg" alt="" width="400px">
+					<h3>Swim and Dine Resort</h3>
+					<div class="rating-price-type">
+						<div class="rating">
+							<p>4.5</p>
+						</div>
+						<div class="num-rate">
+							<p>8 Ratings</p>
+						</div>
+						<div class="price">
+							<p>Form <span>50$-500$</span></p>
+						</div>
+						<div class="type">
+							<p>hotel</p>
+						</div>
+					</div>
+					<div class="costumer-opinion">
+						<img src="person.png" alt="">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua....</p>
+					</div>
+					<div class="statue">
+						<p>open Now</p>
+						<div class="icons">
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE3klEQVR4nM2aa4hVVRTHf3dyJktJLUjToJysGJJKCssYsYeUYyWVlL3JbxGR0wMsLcz80IcoCoLoYR96isVYqSlWkJY29cmyMtJeRqFjjyHNrjPqjRX/HbvTedx7z+PeP2y456y111pn77XXWnvvC9ljPHAn0AP0Aj+q9epdt3iaFhcCHwGVQBtQC77fBFxAE2E0sNoz8DNgMXCOaCU1+30u8BCwxeNfBRzb6I84HfhOBm0FrpbR1WA68Kn6muudRYNwJrBHhjwNtNYhow14VjL+AM6gYJib/CAD7s1A3n2S9X3RbubWxDMZynQz8xYFRidT+EWd7hTnZlsl+3wKgAuxs2J4RgELlDt2qfXKhUbG9LtSsjeSM9q9EBuFmcCvIXnDtV+Arpj+n4vvRHJEt5RYnoj6iAPieRmYLJdpU155VTTjmREhY4l45uX4Hf+UGBUltjB3cjNxW4yM28WzGxgRQj9P9NfJER9LSViIXODNRBKWxYTu0aLZmsoNO1Q3tcQEAXOhJEyJWdQt0mG6csNOoBxBM1c5VGVIbhNvXwS9DPxMjvhKIzk0hNYn48zIJBwuXgvLQRwpHV+SIz6UkvE5utbJoq0nR7gy4vKYeslCbBKWi3d+CO0q0Z4iR8yTkvtDaCOV7CoKsVG4IyH8LqkihKfGZCl5L4Le5SXEZco3LiFO8WbCeC6JkLFRPLmW9IcB/cBfwBERPDM02lElyu6YjzgKGFQQqHaDljq7XxHDM0L+v0khe6dGen6EOzlcL9kvUACuk7JXcpD9ZkwwyRzDgT+1zY0b3VphZU9Zrmt5phA8n0OF+oBkPk6BmCil2yLqrlrRqpOUQ8ApFIz1+hjbg6TFtZK1kgZgtpSvybD0uZgGYIiOhMwdJqWQM807zCjRINzqHXvWi/clYw4NRKsWfEUjWytmeocZWQSNVHDZ+IMa+5kbfaK+l9IEaAE21xHB5qiPLfSmQZeM+jpi9xhWHbi80UnBKAEdwFzgMWCdTjrGBeqkRVXIekS8L+n5eJ3QrAMelY6OLKOYbZZuBF7TnjxYkh/w7jVs+7tPJf6EhKpgQNcIY/XubOBgiPw+6b4h4ag1dgP1ooq4oOAVGnVLiCcE+i0S39oIuSWvIrgnQDNZsyVjRcjAlWWT2ZaIkyTEdbZR2gDcpalOwlAvHF8TQr9ZtC1VHht1SPeGwIz1yNbInV2/GPfKj+3QulZMk9KfgKMDZfouuWM1Jy1BtMumvbKxP+z8eKJ8232t89168aRk2R7dwc20LeY0GOftUs3m03ziu95dYBaRYrh3SXoTcItX9tsBXFqUZKvJfMcn7NNL3xXSolNu1K82GHGKXy+Okc1m+79wo3cR2WKxt0AfzFj2dMn91n+5UC9/zzjTDlFlvFK/s0KnbK3oOuM/Ct1NrUWcpcBxNB/GyjYXileHDZDF9YeB/WIaUHS4LOPb21rRKht6vP+0lGVrrF0TVBYMev69R19/tzLrsBwNHyYdlvnf9v5dUZFNyxNKoP9hjIS5Et1vNrXbgTeUpLp1gDAVOFXJa5Sag3tuF89UHfZ1S4bJ2h5Rc22WLWZTKozRBmqpdnNhf1vKqu2Xjuek0+4Uc4P5pmVU2xzZvcgTmnLbJdqe5BvgNzVnoHs2mvEYr/WxvnYparJMZl3r8W8q57Krse7F0AAAAABJRU5ErkJggg==">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAyElEQVR4nO2W0QqCMBRAz5N/kNCnVN9X1m+VEKRP+tAPuH5jEdzBEC033SLagYtj83q8V5zCj5EDJVDJOAoroAG0xB1Yx5bqGPIcaEVkjva4DdX2qicwYvuGbiHEV6C2qjJiZK6Wc4KjLXFUdChxBpyAx4jk3ZwCCrmGM8eB12aq2MTBR6wkeePR6q1V+eLPUM9cHyWJ+/xfqy/A+RviTyTxZFKro3VMSeJrw3dlJ7mdj7gY+My5xt5HnIncVO4SnUi9fgQSLMkTC/Sc/YXWQCAAAAAASUVORK5CYII=">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADTElEQVR4nO2ZS2xNURSGv2olaCkDIU0x8ChC0DLwSIzExCNCg4kYCErFSBkQBEmnpJ5BVJuYeM2olmEjRBAJYuCtiXhTVaKtrOQ/yU573J57e3q7m9wvOcm9Z+299lpnr73P2utAhgwZMmTwnCJgJ9AAPAGagVagCagHdgOTk9A3Bdijvk3S1Szddq8CmBSnA7OBm0BHhKsduA7MTKBvltq0R9TZAJT0xIGBQJUz4CfgNLBMs5MLDALGAEuB48Bntf0L7AeyHX32+6Bkgb5jwBLpMF250r0cOKM2wQM6AuQk68QI4JaU/AQOAMMi9BsK7FOYWN/zcsCuWt0z2V617Y5hcr7FmZ3hycxE4MRrhUKyWGi9ko5ax4mXwIwU9JUAbxxnIs1MleNEAakzTjqCWDfHxvZAX4HjzOEoC7td4ZTKTIQ9yVZdxTHoK1aYtXWnL9idbE3ERYWuuDgkG22LDqXI2U2iLOyoBIs9LvKd3XFiWINdEtoW6ztnZeuOMGG9hLaH+84K2XojTPhMwgn4T5FsfRom/CFhHv6TJ1vN5i4Eb09LFXxniJN1dOGdhD15CaaLQtlqL8guPJSwR5lmmpgjWx+ECWsk3Iz/bJWt58KE5RJW4z81snXL/05sJvzi+YIfDHyTrbYNh3JPDUrxlzWy8U6iRtvUyBzKwj+ygPuysay7aWtSw5X4xyrZ9jZK+Jc7e7Rlmr6QLwf+u8g7Y8fIu+pgWaYvVMum28kcC6Y7BYRN9D1lsuUXMDXZzhvU+TewiL5jsWwwW9anqiQoRFgFcB7pZ4ESw0gFh0RYLF5wnEnnzCwEvmvsi3Ecl63OddWJ0bX0Pms1lo15STbEQrZKmEGN6mQq5cuI41Q6Zdqa3hgnS+XQNg1yTaXVuDBdddLdprJqr2YXVrD+qgGfA3Nj0DkfeOEkrVbYTgtWoHjkVN4rU4zjHH1z+SNdT5SFp70AcMpZN43A+CQfRqPz2eCEPiv06QsrOO+36AkPSNDe4n6jU7V5r28uXjASuOzMTp0KBJ0pVFGtw9lara93lAIfZKRtCKsdmVUwPzoL2mbFa0YDV5ynbmnOUee/zdwo+hHrlNYEDtibejv9lGnAY132u1+T79lJMwPp4B+umggDgRN8wAAAAABJRU5ErkJggg==">
+						</div>
+					</div>
+				</div>
+				<div class="europe-tour">
+					<img src="e3.jpg" alt="" width="400px">
+					<h3>Eupore Tour</h3>
+					<div class="rating-price-type">
+						<div class="rating">
+							<p>5.0</p>
+						</div>
+						<div class="num-rate">
+							<p>15 Ratings</p>
+						</div>
+						<div class="price">
+							<p>Form <span>5k$-10k$</span></p>
+						</div>
+						<div class="type">
+							<p>Destination</p>
+						</div>
+					</div>
+					<div class="costumer-opinion">
+						<img src="person.png" alt="">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua....</p>
+					</div>
+					<div class="statue">
+						<p>close Now</p>
+						<div class="icons">
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE3klEQVR4nM2aa4hVVRTHf3dyJktJLUjToJysGJJKCssYsYeUYyWVlL3JbxGR0wMsLcz80IcoCoLoYR96isVYqSlWkJY29cmyMtJeRqFjjyHNrjPqjRX/HbvTedx7z+PeP2y456y111pn77XXWnvvC9ljPHAn0AP0Aj+q9epdt3iaFhcCHwGVQBtQC77fBFxAE2E0sNoz8DNgMXCOaCU1+30u8BCwxeNfBRzb6I84HfhOBm0FrpbR1WA68Kn6muudRYNwJrBHhjwNtNYhow14VjL+AM6gYJib/CAD7s1A3n2S9X3RbubWxDMZynQz8xYFRidT+EWd7hTnZlsl+3wKgAuxs2J4RgELlDt2qfXKhUbG9LtSsjeSM9q9EBuFmcCvIXnDtV+Arpj+n4vvRHJEt5RYnoj6iAPieRmYLJdpU155VTTjmREhY4l45uX4Hf+UGBUltjB3cjNxW4yM28WzGxgRQj9P9NfJER9LSViIXODNRBKWxYTu0aLZmsoNO1Q3tcQEAXOhJEyJWdQt0mG6csNOoBxBM1c5VGVIbhNvXwS9DPxMjvhKIzk0hNYn48zIJBwuXgvLQRwpHV+SIz6UkvE5utbJoq0nR7gy4vKYeslCbBKWi3d+CO0q0Z4iR8yTkvtDaCOV7CoKsVG4IyH8LqkihKfGZCl5L4Le5SXEZco3LiFO8WbCeC6JkLFRPLmW9IcB/cBfwBERPDM02lElyu6YjzgKGFQQqHaDljq7XxHDM0L+v0khe6dGen6EOzlcL9kvUACuk7JXcpD9ZkwwyRzDgT+1zY0b3VphZU9Zrmt5phA8n0OF+oBkPk6BmCil2yLqrlrRqpOUQ8ApFIz1+hjbg6TFtZK1kgZgtpSvybD0uZgGYIiOhMwdJqWQM807zCjRINzqHXvWi/clYw4NRKsWfEUjWytmeocZWQSNVHDZ+IMa+5kbfaK+l9IEaAE21xHB5qiPLfSmQZeM+jpi9xhWHbi80UnBKAEdwFzgMWCdTjrGBeqkRVXIekS8L+n5eJ3QrAMelY6OLKOYbZZuBF7TnjxYkh/w7jVs+7tPJf6EhKpgQNcIY/XubOBgiPw+6b4h4ag1dgP1ooq4oOAVGnVLiCcE+i0S39oIuSWvIrgnQDNZsyVjRcjAlWWT2ZaIkyTEdbZR2gDcpalOwlAvHF8TQr9ZtC1VHht1SPeGwIz1yNbInV2/GPfKj+3QulZMk9KfgKMDZfouuWM1Jy1BtMumvbKxP+z8eKJ8232t89168aRk2R7dwc20LeY0GOftUs3m03ziu95dYBaRYrh3SXoTcItX9tsBXFqUZKvJfMcn7NNL3xXSolNu1K82GHGKXy+Okc1m+79wo3cR2WKxt0AfzFj2dMn91n+5UC9/zzjTDlFlvFK/s0KnbK3oOuM/Ct1NrUWcpcBxNB/GyjYXileHDZDF9YeB/WIaUHS4LOPb21rRKht6vP+0lGVrrF0TVBYMev69R19/tzLrsBwNHyYdlvnf9v5dUZFNyxNKoP9hjIS5Et1vNrXbgTeUpLp1gDAVOFXJa5Sag3tuF89UHfZ1S4bJ2h5Rc22WLWZTKozRBmqpdnNhf1vKqu2Xjuek0+4Uc4P5pmVU2xzZvcgTmnLbJdqe5BvgNzVnoHs2mvEYr/WxvnYparJMZl3r8W8q57Krse7F0AAAAABJRU5ErkJggg==">
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAyElEQVR4nO2W0QqCMBRAz5N/kNCnVN9X1m+VEKRP+tAPuH5jEdzBEC033SLagYtj83q8V5zCj5EDJVDJOAoroAG0xB1Yx5bqGPIcaEVkjva4DdX2qicwYvuGbiHEV6C2qjJiZK6Wc4KjLXFUdChxBpyAx4jk3ZwCCrmGM8eB12aq2MTBR6wkeePR6q1V+eLPUM9cHyWJ+/xfqy/A+RviTyTxZFKro3VMSeJrw3dlJ7mdj7gY+My5xt5HnIncVO4SnUi9fgQSLMkTC/Sc/YXWQCAAAAAASUVORK5CYII=">
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADTElEQVR4nO2ZS2xNURSGv2olaCkDIU0x8ChC0DLwSIzExCNCg4kYCErFSBkQBEmnpJ5BVJuYeM2olmEjRBAJYuCtiXhTVaKtrOQ/yU573J57e3q7m9wvOcm9Z+299lpnr73P2utAhgwZMmTwnCJgJ9AAPAGagVagCagHdgOTk9A3Bdijvk3S1Szddq8CmBSnA7OBm0BHhKsduA7MTKBvltq0R9TZAJT0xIGBQJUz4CfgNLBMs5MLDALGAEuB48Bntf0L7AeyHX32+6Bkgb5jwBLpMF250r0cOKM2wQM6AuQk68QI4JaU/AQOAMMi9BsK7FOYWN/zcsCuWt0z2V617Y5hcr7FmZ3hycxE4MRrhUKyWGi9ko5ax4mXwIwU9JUAbxxnIs1MleNEAakzTjqCWDfHxvZAX4HjzOEoC7td4ZTKTIQ9yVZdxTHoK1aYtXWnL9idbE3ERYWuuDgkG22LDqXI2U2iLOyoBIs9LvKd3XFiWINdEtoW6ztnZeuOMGG9hLaH+84K2XojTPhMwgn4T5FsfRom/CFhHv6TJ1vN5i4Eb09LFXxniJN1dOGdhD15CaaLQtlqL8guPJSwR5lmmpgjWx+ECWsk3Iz/bJWt58KE5RJW4z81snXL/05sJvzi+YIfDHyTrbYNh3JPDUrxlzWy8U6iRtvUyBzKwj+ygPuysay7aWtSw5X4xyrZ9jZK+Jc7e7Rlmr6QLwf+u8g7Y8fIu+pgWaYvVMum28kcC6Y7BYRN9D1lsuUXMDXZzhvU+TewiL5jsWwwW9anqiQoRFgFcB7pZ4ESw0gFh0RYLF5wnEnnzCwEvmvsi3Ecl63OddWJ0bX0Pms1lo15STbEQrZKmEGN6mQq5cuI41Q6Zdqa3hgnS+XQNg1yTaXVuDBdddLdprJqr2YXVrD+qgGfA3Nj0DkfeOEkrVbYTgtWoHjkVN4rU4zjHH1z+SNdT5SFp70AcMpZN43A+CQfRqPz2eCEPiv06QsrOO+36AkPSNDe4n6jU7V5r28uXjASuOzMTp0KBJ0pVFGtw9lara93lAIfZKRtCKsdmVUwPzoL2mbFa0YDV5ynbmnOUee/zdwo+hHrlNYEDtibejv9lGnAY132u1+T79lJMwPp4B+umggDgRN8wAAAAABJRU5ErkJggg==">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="line2">
+				<div class="bungalow-with-swimming-pool">
+					<img src="e4.jpg" alt="" width="400px">
+					<h3>Bungalow With Swimming Pool</h3>
+					<div class="rating-price-type">
+						<div class="rating">
+							<p>5.0</p>
+						</div>
+						<div class="num-rate">
+							<p>10 Ratings</p>
+						</div>
+						<div class="price">
+							<p>Form <span>10k$-15k$</span></p>
+						</div>
+						<div class="type">
+							<p>Real Estate</p>
+						</div>
+					</div>
+					<div class="costumer-opinion">
+						<img src="person.png" alt="">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua....</p>
+					</div>
+					<div class="statue">
+						<p>close Now</p>
+						<div class="icons">
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE3klEQVR4nM2aa4hVVRTHf3dyJktJLUjToJysGJJKCssYsYeUYyWVlL3JbxGR0wMsLcz80IcoCoLoYR96isVYqSlWkJY29cmyMtJeRqFjjyHNrjPqjRX/HbvTedx7z+PeP2y456y111pn77XXWnvvC9ljPHAn0AP0Aj+q9epdt3iaFhcCHwGVQBtQC77fBFxAE2E0sNoz8DNgMXCOaCU1+30u8BCwxeNfBRzb6I84HfhOBm0FrpbR1WA68Kn6muudRYNwJrBHhjwNtNYhow14VjL+AM6gYJib/CAD7s1A3n2S9X3RbubWxDMZynQz8xYFRidT+EWd7hTnZlsl+3wKgAuxs2J4RgELlDt2qfXKhUbG9LtSsjeSM9q9EBuFmcCvIXnDtV+Arpj+n4vvRHJEt5RYnoj6iAPieRmYLJdpU155VTTjmREhY4l45uX4Hf+UGBUltjB3cjNxW4yM28WzGxgRQj9P9NfJER9LSViIXODNRBKWxYTu0aLZmsoNO1Q3tcQEAXOhJEyJWdQt0mG6csNOoBxBM1c5VGVIbhNvXwS9DPxMjvhKIzk0hNYn48zIJBwuXgvLQRwpHV+SIz6UkvE5utbJoq0nR7gy4vKYeslCbBKWi3d+CO0q0Z4iR8yTkvtDaCOV7CoKsVG4IyH8LqkihKfGZCl5L4Le5SXEZco3LiFO8WbCeC6JkLFRPLmW9IcB/cBfwBERPDM02lElyu6YjzgKGFQQqHaDljq7XxHDM0L+v0khe6dGen6EOzlcL9kvUACuk7JXcpD9ZkwwyRzDgT+1zY0b3VphZU9Zrmt5phA8n0OF+oBkPk6BmCil2yLqrlrRqpOUQ8ApFIz1+hjbg6TFtZK1kgZgtpSvybD0uZgGYIiOhMwdJqWQM807zCjRINzqHXvWi/clYw4NRKsWfEUjWytmeocZWQSNVHDZ+IMa+5kbfaK+l9IEaAE21xHB5qiPLfSmQZeM+jpi9xhWHbi80UnBKAEdwFzgMWCdTjrGBeqkRVXIekS8L+n5eJ3QrAMelY6OLKOYbZZuBF7TnjxYkh/w7jVs+7tPJf6EhKpgQNcIY/XubOBgiPw+6b4h4ag1dgP1ooq4oOAVGnVLiCcE+i0S39oIuSWvIrgnQDNZsyVjRcjAlWWT2ZaIkyTEdbZR2gDcpalOwlAvHF8TQr9ZtC1VHht1SPeGwIz1yNbInV2/GPfKj+3QulZMk9KfgKMDZfouuWM1Jy1BtMumvbKxP+z8eKJ8232t89168aRk2R7dwc20LeY0GOftUs3m03ziu95dYBaRYrh3SXoTcItX9tsBXFqUZKvJfMcn7NNL3xXSolNu1K82GHGKXy+Okc1m+79wo3cR2WKxt0AfzFj2dMn91n+5UC9/zzjTDlFlvFK/s0KnbK3oOuM/Ct1NrUWcpcBxNB/GyjYXileHDZDF9YeB/WIaUHS4LOPb21rRKht6vP+0lGVrrF0TVBYMev69R19/tzLrsBwNHyYdlvnf9v5dUZFNyxNKoP9hjIS5Et1vNrXbgTeUpLp1gDAVOFXJa5Sag3tuF89UHfZ1S4bJ2h5Rc22WLWZTKozRBmqpdnNhf1vKqu2Xjuek0+4Uc4P5pmVU2xzZvcgTmnLbJdqe5BvgNzVnoHs2mvEYr/WxvnYparJMZl3r8W8q57Krse7F0AAAAABJRU5ErkJggg==">
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAyElEQVR4nO2W0QqCMBRAz5N/kNCnVN9X1m+VEKRP+tAPuH5jEdzBEC033SLagYtj83q8V5zCj5EDJVDJOAoroAG0xB1Yx5bqGPIcaEVkjva4DdX2qicwYvuGbiHEV6C2qjJiZK6Wc4KjLXFUdChxBpyAx4jk3ZwCCrmGM8eB12aq2MTBR6wkeePR6q1V+eLPUM9cHyWJ+/xfqy/A+RviTyTxZFKro3VMSeJrw3dlJ7mdj7gY+My5xt5HnIncVO4SnUi9fgQSLMkTC/Sc/YXWQCAAAAAASUVORK5CYII=">
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADTElEQVR4nO2ZS2xNURSGv2olaCkDIU0x8ChC0DLwSIzExCNCg4kYCErFSBkQBEmnpJ5BVJuYeM2olmEjRBAJYuCtiXhTVaKtrOQ/yU573J57e3q7m9wvOcm9Z+299lpnr73P2utAhgwZMmTwnCJgJ9AAPAGagVagCagHdgOTk9A3Bdijvk3S1Szddq8CmBSnA7OBm0BHhKsduA7MTKBvltq0R9TZAJT0xIGBQJUz4CfgNLBMs5MLDALGAEuB48Bntf0L7AeyHX32+6Bkgb5jwBLpMF250r0cOKM2wQM6AuQk68QI4JaU/AQOAMMi9BsK7FOYWN/zcsCuWt0z2V617Y5hcr7FmZ3hycxE4MRrhUKyWGi9ko5ax4mXwIwU9JUAbxxnIs1MleNEAakzTjqCWDfHxvZAX4HjzOEoC7td4ZTKTIQ9yVZdxTHoK1aYtXWnL9idbE3ERYWuuDgkG22LDqXI2U2iLOyoBIs9LvKd3XFiWINdEtoW6ztnZeuOMGG9hLaH+84K2XojTPhMwgn4T5FsfRom/CFhHv6TJ1vN5i4Eb09LFXxniJN1dOGdhD15CaaLQtlqL8guPJSwR5lmmpgjWx+ECWsk3Iz/bJWt58KE5RJW4z81snXL/05sJvzi+YIfDHyTrbYNh3JPDUrxlzWy8U6iRtvUyBzKwj+ygPuysay7aWtSw5X4xyrZ9jZK+Jc7e7Rlmr6QLwf+u8g7Y8fIu+pgWaYvVMum28kcC6Y7BYRN9D1lsuUXMDXZzhvU+TewiL5jsWwwW9anqiQoRFgFcB7pZ4ESw0gFh0RYLF5wnEnnzCwEvmvsi3Ecl63OddWJ0bX0Pms1lo15STbEQrZKmEGN6mQq5cuI41Q6Zdqa3hgnS+XQNg1yTaXVuDBdddLdprJqr2YXVrD+qgGfA3Nj0DkfeOEkrVbYTgtWoHjkVN4rU4zjHH1z+SNdT5SFp70AcMpZN43A+CQfRqPz2eCEPiv06QsrOO+36AkPSNDe4n6jU7V5r28uXjASuOzMTp0KBJ0pVFGtw9lara93lAIfZKRtCKsdmVUwPzoL2mbFa0YDV5ynbmnOUee/zdwo+hHrlNYEDtibejv9lGnAY132u1+T79lJMwPp4B+umggDgRN8wAAAAABJRU5ErkJggg==">
+						</div>
+					</div>
+				</div>
+				<div class="vintage-car-expo">
+					<img src="e5.jpg" alt="" width="400px">
+					<h3>Vintage Car Expo</h3>
+					<div class="rating-price-type">
+						<div class="rating">
+							<p>4.2</p>
+						</div>
+						<div class="num-rate">
+							<p>8 Ratings</p>
+						</div>
+						<div class="price">
+							<p>Form <span>500$-1200$</span></p>
+						</div>
+						<div class="type">
+							<p>Automation</p>
+						</div>
+					</div>
+					<div class="costumer-opinion">
+						<img src="person.png" alt="">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua....</p>
+					</div>
+					<div class="statue">
+						<p>open Now</p>
+						<div class="icons">
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE3klEQVR4nM2aa4hVVRTHf3dyJktJLUjToJysGJJKCssYsYeUYyWVlL3JbxGR0wMsLcz80IcoCoLoYR96isVYqSlWkJY29cmyMtJeRqFjjyHNrjPqjRX/HbvTedx7z+PeP2y456y111pn77XXWnvvC9ljPHAn0AP0Aj+q9epdt3iaFhcCHwGVQBtQC77fBFxAE2E0sNoz8DNgMXCOaCU1+30u8BCwxeNfBRzb6I84HfhOBm0FrpbR1WA68Kn6muudRYNwJrBHhjwNtNYhow14VjL+AM6gYJib/CAD7s1A3n2S9X3RbubWxDMZynQz8xYFRidT+EWd7hTnZlsl+3wKgAuxs2J4RgELlDt2qfXKhUbG9LtSsjeSM9q9EBuFmcCvIXnDtV+Arpj+n4vvRHJEt5RYnoj6iAPieRmYLJdpU155VTTjmREhY4l45uX4Hf+UGBUltjB3cjNxW4yM28WzGxgRQj9P9NfJER9LSViIXODNRBKWxYTu0aLZmsoNO1Q3tcQEAXOhJEyJWdQt0mG6csNOoBxBM1c5VGVIbhNvXwS9DPxMjvhKIzk0hNYn48zIJBwuXgvLQRwpHV+SIz6UkvE5utbJoq0nR7gy4vKYeslCbBKWi3d+CO0q0Z4iR8yTkvtDaCOV7CoKsVG4IyH8LqkihKfGZCl5L4Le5SXEZco3LiFO8WbCeC6JkLFRPLmW9IcB/cBfwBERPDM02lElyu6YjzgKGFQQqHaDljq7XxHDM0L+v0khe6dGen6EOzlcL9kvUACuk7JXcpD9ZkwwyRzDgT+1zY0b3VphZU9Zrmt5phA8n0OF+oBkPk6BmCil2yLqrlrRqpOUQ8ApFIz1+hjbg6TFtZK1kgZgtpSvybD0uZgGYIiOhMwdJqWQM807zCjRINzqHXvWi/clYw4NRKsWfEUjWytmeocZWQSNVHDZ+IMa+5kbfaK+l9IEaAE21xHB5qiPLfSmQZeM+jpi9xhWHbi80UnBKAEdwFzgMWCdTjrGBeqkRVXIekS8L+n5eJ3QrAMelY6OLKOYbZZuBF7TnjxYkh/w7jVs+7tPJf6EhKpgQNcIY/XubOBgiPw+6b4h4ag1dgP1ooq4oOAVGnVLiCcE+i0S39oIuSWvIrgnQDNZsyVjRcjAlWWT2ZaIkyTEdbZR2gDcpalOwlAvHF8TQr9ZtC1VHht1SPeGwIz1yNbInV2/GPfKj+3QulZMk9KfgKMDZfouuWM1Jy1BtMumvbKxP+z8eKJ8232t89168aRk2R7dwc20LeY0GOftUs3m03ziu95dYBaRYrh3SXoTcItX9tsBXFqUZKvJfMcn7NNL3xXSolNu1K82GHGKXy+Okc1m+79wo3cR2WKxt0AfzFj2dMn91n+5UC9/zzjTDlFlvFK/s0KnbK3oOuM/Ct1NrUWcpcBxNB/GyjYXileHDZDF9YeB/WIaUHS4LOPb21rRKht6vP+0lGVrrF0TVBYMev69R19/tzLrsBwNHyYdlvnf9v5dUZFNyxNKoP9hjIS5Et1vNrXbgTeUpLp1gDAVOFXJa5Sag3tuF89UHfZ1S4bJ2h5Rc22WLWZTKozRBmqpdnNhf1vKqu2Xjuek0+4Uc4P5pmVU2xzZvcgTmnLbJdqe5BvgNzVnoHs2mvEYr/WxvnYparJMZl3r8W8q57Krse7F0AAAAABJRU5ErkJggg==">
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAyElEQVR4nO2W0QqCMBRAz5N/kNCnVN9X1m+VEKRP+tAPuH5jEdzBEC033SLagYtj83q8V5zCj5EDJVDJOAoroAG0xB1Yx5bqGPIcaEVkjva4DdX2qicwYvuGbiHEV6C2qjJiZK6Wc4KjLXFUdChxBpyAx4jk3ZwCCrmGM8eB12aq2MTBR6wkeePR6q1V+eLPUM9cHyWJ+/xfqy/A+RviTyTxZFKro3VMSeJrw3dlJ7mdj7gY+My5xt5HnIncVO4SnUi9fgQSLMkTC/Sc/YXWQCAAAAAASUVORK5CYII=">
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADTElEQVR4nO2ZS2xNURSGv2olaCkDIU0x8ChC0DLwSIzExCNCg4kYCErFSBkQBEmnpJ5BVJuYeM2olmEjRBAJYuCtiXhTVaKtrOQ/yU573J57e3q7m9wvOcm9Z+299lpnr73P2utAhgwZMmTwnCJgJ9AAPAGagVagCagHdgOTk9A3Bdijvk3S1Szddq8CmBSnA7OBm0BHhKsduA7MTKBvltq0R9TZAJT0xIGBQJUz4CfgNLBMs5MLDALGAEuB48Bntf0L7AeyHX32+6Bkgb5jwBLpMF250r0cOKM2wQM6AuQk68QI4JaU/AQOAMMi9BsK7FOYWN/zcsCuWt0z2V617Y5hcr7FmZ3hycxE4MRrhUKyWGi9ko5ax4mXwIwU9JUAbxxnIs1MleNEAakzTjqCWDfHxvZAX4HjzOEoC7td4ZTKTIQ9yVZdxTHoK1aYtXWnL9idbE3ERYWuuDgkG22LDqXI2U2iLOyoBIs9LvKd3XFiWINdEtoW6ztnZeuOMGG9hLaH+84K2XojTPhMwgn4T5FsfRom/CFhHv6TJ1vN5i4Eb09LFXxniJN1dOGdhD15CaaLQtlqL8guPJSwR5lmmpgjWx+ECWsk3Iz/bJWt58KE5RJW4z81snXL/05sJvzi+YIfDHyTrbYNh3JPDUrxlzWy8U6iRtvUyBzKwj+ygPuysay7aWtSw5X4xyrZ9jZK+Jc7e7Rlmr6QLwf+u8g7Y8fIu+pgWaYvVMum28kcC6Y7BYRN9D1lsuUXMDXZzhvU+TewiL5jsWwwW9anqiQoRFgFcB7pZ4ESw0gFh0RYLF5wnEnnzCwEvmvsi3Ecl63OddWJ0bX0Pms1lo15STbEQrZKmEGN6mQq5cuI41Q6Zdqa3hgnS+XQNg1yTaXVuDBdddLdprJqr2YXVrD+qgGfA3Nj0DkfeOEkrVbYTgtWoHjkVN4rU4zjHH1z+SNdT5SFp70AcMpZN43A+CQfRqPz2eCEPiv06QsrOO+36AkPSNDe4n6jU7V5r28uXjASuOzMTp0KBJ0pVFGtw9lara93lAIfZKRtCKsdmVUwPzoL2mbFa0YDV5ynbmnOUee/zdwo+hHrlNYEDtibejv9lGnAY132u1+T79lJMwPp4B+umggDgRN8wAAAAABJRU5ErkJggg==">
+						</div>
+					</div>
+				</div>
+				<div class="thailand-tour">
+					<img src="e6.jpg" alt="" width="400px">
+					<h3>Thailand Tour</h3>
+					<div class="rating-price-type">
+						<div class="rating">
+							<p>5.0</p>
+						</div>
+						<div class="num-rate">
+							<p>15 Ratings</p>
+						</div>
+						<div class="price">
+							<p>Form <span>5k$-10k$</span></p>
+						</div>
+						<div class="type">
+							<p>Resturent</p>
+						</div>
+					</div>
+					<div class="costumer-opinion">
+						<img src="person.png" alt="">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua....</p>
+					</div>
+					<div class="statue">
+						<p>close Now</p>
+						<div class="icons">
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE3klEQVR4nM2aa4hVVRTHf3dyJktJLUjToJysGJJKCssYsYeUYyWVlL3JbxGR0wMsLcz80IcoCoLoYR96isVYqSlWkJY29cmyMtJeRqFjjyHNrjPqjRX/HbvTedx7z+PeP2y456y111pn77XXWnvvC9ljPHAn0AP0Aj+q9epdt3iaFhcCHwGVQBtQC77fBFxAE2E0sNoz8DNgMXCOaCU1+30u8BCwxeNfBRzb6I84HfhOBm0FrpbR1WA68Kn6muudRYNwJrBHhjwNtNYhow14VjL+AM6gYJib/CAD7s1A3n2S9X3RbubWxDMZynQz8xYFRidT+EWd7hTnZlsl+3wKgAuxs2J4RgELlDt2qfXKhUbG9LtSsjeSM9q9EBuFmcCvIXnDtV+Arpj+n4vvRHJEt5RYnoj6iAPieRmYLJdpU155VTTjmREhY4l45uX4Hf+UGBUltjB3cjNxW4yM28WzGxgRQj9P9NfJER9LSViIXODNRBKWxYTu0aLZmsoNO1Q3tcQEAXOhJEyJWdQt0mG6csNOoBxBM1c5VGVIbhNvXwS9DPxMjvhKIzk0hNYn48zIJBwuXgvLQRwpHV+SIz6UkvE5utbJoq0nR7gy4vKYeslCbBKWi3d+CO0q0Z4iR8yTkvtDaCOV7CoKsVG4IyH8LqkihKfGZCl5L4Le5SXEZco3LiFO8WbCeC6JkLFRPLmW9IcB/cBfwBERPDM02lElyu6YjzgKGFQQqHaDljq7XxHDM0L+v0khe6dGen6EOzlcL9kvUACuk7JXcpD9ZkwwyRzDgT+1zY0b3VphZU9Zrmt5phA8n0OF+oBkPk6BmCil2yLqrlrRqpOUQ8ApFIz1+hjbg6TFtZK1kgZgtpSvybD0uZgGYIiOhMwdJqWQM807zCjRINzqHXvWi/clYw4NRKsWfEUjWytmeocZWQSNVHDZ+IMa+5kbfaK+l9IEaAE21xHB5qiPLfSmQZeM+jpi9xhWHbi80UnBKAEdwFzgMWCdTjrGBeqkRVXIekS8L+n5eJ3QrAMelY6OLKOYbZZuBF7TnjxYkh/w7jVs+7tPJf6EhKpgQNcIY/XubOBgiPw+6b4h4ag1dgP1ooq4oOAVGnVLiCcE+i0S39oIuSWvIrgnQDNZsyVjRcjAlWWT2ZaIkyTEdbZR2gDcpalOwlAvHF8TQr9ZtC1VHht1SPeGwIz1yNbInV2/GPfKj+3QulZMk9KfgKMDZfouuWM1Jy1BtMumvbKxP+z8eKJ8232t89168aRk2R7dwc20LeY0GOftUs3m03ziu95dYBaRYrh3SXoTcItX9tsBXFqUZKvJfMcn7NNL3xXSolNu1K82GHGKXy+Okc1m+79wo3cR2WKxt0AfzFj2dMn91n+5UC9/zzjTDlFlvFK/s0KnbK3oOuM/Ct1NrUWcpcBxNB/GyjYXileHDZDF9YeB/WIaUHS4LOPb21rRKht6vP+0lGVrrF0TVBYMev69R19/tzLrsBwNHyYdlvnf9v5dUZFNyxNKoP9hjIS5Et1vNrXbgTeUpLp1gDAVOFXJa5Sag3tuF89UHfZ1S4bJ2h5Rc22WLWZTKozRBmqpdnNhf1vKqu2Xjuek0+4Uc4P5pmVU2xzZvcgTmnLbJdqe5BvgNzVnoHs2mvEYr/WxvnYparJMZl3r8W8q57Krse7F0AAAAABJRU5ErkJggg==">
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAyElEQVR4nO2W0QqCMBRAz5N/kNCnVN9X1m+VEKRP+tAPuH5jEdzBEC033SLagYtj83q8V5zCj5EDJVDJOAoroAG0xB1Yx5bqGPIcaEVkjva4DdX2qicwYvuGbiHEV6C2qjJiZK6Wc4KjLXFUdChxBpyAx4jk3ZwCCrmGM8eB12aq2MTBR6wkeePR6q1V+eLPUM9cHyWJ+/xfqy/A+RviTyTxZFKro3VMSeJrw3dlJ7mdj7gY+My5xt5HnIncVO4SnUi9fgQSLMkTC/Sc/YXWQCAAAAAASUVORK5CYII=">
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADTElEQVR4nO2ZS2xNURSGv2olaCkDIU0x8ChC0DLwSIzExCNCg4kYCErFSBkQBEmnpJ5BVJuYeM2olmEjRBAJYuCtiXhTVaKtrOQ/yU573J57e3q7m9wvOcm9Z+299lpnr73P2utAhgwZMmTwnCJgJ9AAPAGagVagCagHdgOTk9A3Bdijvk3S1Szddq8CmBSnA7OBm0BHhKsduA7MTKBvltq0R9TZAJT0xIGBQJUz4CfgNLBMs5MLDALGAEuB48Bntf0L7AeyHX32+6Bkgb5jwBLpMF250r0cOKM2wQM6AuQk68QI4JaU/AQOAMMi9BsK7FOYWN/zcsCuWt0z2V617Y5hcr7FmZ3hycxE4MRrhUKyWGi9ko5ax4mXwIwU9JUAbxxnIs1MleNEAakzTjqCWDfHxvZAX4HjzOEoC7td4ZTKTIQ9yVZdxTHoK1aYtXWnL9idbE3ERYWuuDgkG22LDqXI2U2iLOyoBIs9LvKd3XFiWINdEtoW6ztnZeuOMGG9hLaH+84K2XojTPhMwgn4T5FsfRom/CFhHv6TJ1vN5i4Eb09LFXxniJN1dOGdhD15CaaLQtlqL8guPJSwR5lmmpgjWx+ECWsk3Iz/bJWt58KE5RJW4z81snXL/05sJvzi+YIfDHyTrbYNh3JPDUrxlzWy8U6iRtvUyBzKwj+ygPuysay7aWtSw5X4xyrZ9jZK+Jc7e7Rlmr6QLwf+u8g7Y8fIu+pgWaYvVMum28kcC6Y7BYRN9D1lsuUXMDXZzhvU+TewiL5jsWwwW9anqiQoRFgFcB7pZ4ESw0gFh0RYLF5wnEnnzCwEvmvsi3Ecl63OddWJ0bX0Pms1lo15STbEQrZKmEGN6mQq5cuI41Q6Zdqa3hgnS+XQNg1yTaXVuDBdddLdprJqr2YXVrD+qgGfA3Nj0DkfeOEkrVbYTgtWoHjkVN4rU4zjHH1z+SNdT5SFp70AcMpZN43A+CQfRqPz2eCEPiv06QsrOO+36AkPSNDe4n6jU7V5r28uXjASuOzMTp0KBJ0pVFGtw9lara93lAIfZKRtCKsdmVUwPzoL2mbFa0YDV5ynbmnOUee/zdwo+hHrlNYEDtibejv9lGnAY132u1+T79lJMwPp4B+umggDgRN8wAAAAABJRU5ErkJggg==">
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="review-page">
+		<h3 class="review-title">CLIENTS REVIEWS</h3>
+		<p class="mini-r-title">What our client say about us</p>
+		<div class="reviews">
+			<div class="review1">
+				<div class="name-place-rate">
+					<img src="c4.png" alt="">
+					<div class="class">
+						<h3>Bader sghire</h3>
+						<p>casablanca,morocco</p>
+						<div class="stars">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuUlEQVR4nNXWv2oUcRDA8Z/B/c0S/yU2ksJCYhBrIWAhwSK+QCCN1gnkARS0EWzyCj6ACmnEQtvkARRMbZNWE3O/m0liROJXBu702OTM7e7dQgam2pnfh52dXTaEsxYQomfjsBE3lLjeKNpCbijy2xASMt0YrMQnjnoq8XGDsHz6B8vHRtCETHfRbraJMyOHlfisCCvxaQOwbB6H5fNI0TbxVhHtuevbQwch5IkwaciLfrBf8xqvHfhgQ+4b8Zsh6T8H183khpLP/YUTclOJWyNE6TyOrWMfnF3CFUPWRgi/S4SrfceuyJIiP4d3l/LLv3QQzp36zPfJ7hjxyzBG2ya/O/CyeewQLivypgb81re8FNobiqz4uMqNVlZC3TAuXFPkqAR8tMf4VG1YkeUKC7U0DPhDBfh9LfQr4aIiPyrAh76clWEjW+y3QIY89+y/eNliZViR1ye9m0p+r1uTOD970juvyKtKKITMkFbhwLUWYaJYu024ZMSXhdpU6fd3D3nQe4iRPTytR4kLhnzv6ZsvDRuy2hnt+gH59UH7vNZ7OvBqabhNnDHyRxDGyvZ6j/c28hMYzkr8AYwQsM1gKE1pAAAAAElFTkSuQmCC">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuUlEQVR4nNXWv2oUcRDA8Z/B/c0S/yU2ksJCYhBrIWAhwSK+QCCN1gnkARS0EWzyCj6ACmnEQtvkARRMbZNWE3O/m0liROJXBu702OTM7e7dQgam2pnfh52dXTaEsxYQomfjsBE3lLjeKNpCbijy2xASMt0YrMQnjnoq8XGDsHz6B8vHRtCETHfRbraJMyOHlfisCCvxaQOwbB6H5fNI0TbxVhHtuevbQwch5IkwaciLfrBf8xqvHfhgQ+4b8Zsh6T8H183khpLP/YUTclOJWyNE6TyOrWMfnF3CFUPWRgi/S4SrfceuyJIiP4d3l/LLv3QQzp36zPfJ7hjxyzBG2ya/O/CyeewQLivypgb81re8FNobiqz4uMqNVlZC3TAuXFPkqAR8tMf4VG1YkeUKC7U0DPhDBfh9LfQr4aIiPyrAh76clWEjW+y3QIY89+y/eNliZViR1ye9m0p+r1uTOD970juvyKtKKITMkFbhwLUWYaJYu024ZMSXhdpU6fd3D3nQe4iRPTytR4kLhnzv6ZsvDRuy2hnt+gH59UH7vNZ7OvBqabhNnDHyRxDGyvZ6j/c28hMYzkr8AYwQsM1gKE1pAAAAAElFTkSuQmCC">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuUlEQVR4nNXWv2oUcRDA8Z/B/c0S/yU2ksJCYhBrIWAhwSK+QCCN1gnkARS0EWzyCj6ACmnEQtvkARRMbZNWE3O/m0liROJXBu702OTM7e7dQgam2pnfh52dXTaEsxYQomfjsBE3lLjeKNpCbijy2xASMt0YrMQnjnoq8XGDsHz6B8vHRtCETHfRbraJMyOHlfisCCvxaQOwbB6H5fNI0TbxVhHtuevbQwch5IkwaciLfrBf8xqvHfhgQ+4b8Zsh6T8H183khpLP/YUTclOJWyNE6TyOrWMfnF3CFUPWRgi/S4SrfceuyJIiP4d3l/LLv3QQzp36zPfJ7hjxyzBG2ya/O/CyeewQLivypgb81re8FNobiqz4uMqNVlZC3TAuXFPkqAR8tMf4VG1YkeUKC7U0DPhDBfh9LfQr4aIiPyrAh76clWEjW+y3QIY89+y/eNliZViR1ye9m0p+r1uTOD970juvyKtKKITMkFbhwLUWYaJYu024ZMSXhdpU6fd3D3nQe4iRPTytR4kLhnzv6ZsvDRuy2hnt+gH59UH7vNZ7OvBqabhNnDHyRxDGyvZ6j/c28hMYzkr8AYwQsM1gKE1pAAAAAElFTkSuQmCC">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuUlEQVR4nNXWv2oUcRDA8Z/B/c0S/yU2ksJCYhBrIWAhwSK+QCCN1gnkARS0EWzyCj6ACmnEQtvkARRMbZNWE3O/m0liROJXBu702OTM7e7dQgam2pnfh52dXTaEsxYQomfjsBE3lLjeKNpCbijy2xASMt0YrMQnjnoq8XGDsHz6B8vHRtCETHfRbraJMyOHlfisCCvxaQOwbB6H5fNI0TbxVhHtuevbQwch5IkwaciLfrBf8xqvHfhgQ+4b8Zsh6T8H183khpLP/YUTclOJWyNE6TyOrWMfnF3CFUPWRgi/S4SrfceuyJIiP4d3l/LLv3QQzp36zPfJ7hjxyzBG2ya/O/CyeewQLivypgb81re8FNobiqz4uMqNVlZC3TAuXFPkqAR8tMf4VG1YkeUKC7U0DPhDBfh9LfQr4aIiPyrAh76clWEjW+y3QIY89+y/eNliZViR1ye9m0p+r1uTOD970juvyKtKKITMkFbhwLUWYaJYu024ZMSXhdpU6fd3D3nQe4iRPTytR4kLhnzv6ZsvDRuy2hnt+gH59UH7vNZ7OvBqabhNnDHyRxDGyvZ6j/c28hMYzkr8AYwQsM1gKE1pAAAAAElFTkSuQmCC">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuUlEQVR4nNXWv2oUcRDA8Z/B/c0S/yU2ksJCYhBrIWAhwSK+QCCN1gnkARS0EWzyCj6ACmnEQtvkARRMbZNWE3O/m0liROJXBu702OTM7e7dQgam2pnfh52dXTaEsxYQomfjsBE3lLjeKNpCbijy2xASMt0YrMQnjnoq8XGDsHz6B8vHRtCETHfRbraJMyOHlfisCCvxaQOwbB6H5fNI0TbxVhHtuevbQwch5IkwaciLfrBf8xqvHfhgQ+4b8Zsh6T8H183khpLP/YUTclOJWyNE6TyOrWMfnF3CFUPWRgi/S4SrfceuyJIiP4d3l/LLv3QQzp36zPfJ7hjxyzBG2ya/O/CyeewQLivypgb81re8FNobiqz4uMqNVlZC3TAuXFPkqAR8tMf4VG1YkeUKC7U0DPhDBfh9LfQr4aIiPyrAh76clWEjW+y3QIY89+y/eNliZViR1ye9m0p+r1uTOD970juvyKtKKITMkFbhwLUWYaJYu024ZMSXhdpU6fd3D3nQe4iRPTytR4kLhnzv6ZsvDRuy2hnt+gH59UH7vNZ7OvBqabhNnDHyRxDGyvZ6j/c28hMYzkr8AYwQsM1gKE1pAAAAAElFTkSuQmCC">
+						</div>
+					</div>
+				</div>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam magnam saepe dolorum vitae. Sequi consequuntur, aliquid laudantium ad blanditiis cupiditate rem!</p>
+			</div>
+			<div class="review2">
+				<div class="name-place-rate">
+					<img src="c3.png" alt="">
+					<div class="class">
+						<h3>Walid anbari</h3>
+						<p>casablanca,morocco</p>
+						<div class="stars">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuUlEQVR4nNXWv2oUcRDA8Z/B/c0S/yU2ksJCYhBrIWAhwSK+QCCN1gnkARS0EWzyCj6ACmnEQtvkARRMbZNWE3O/m0liROJXBu702OTM7e7dQgam2pnfh52dXTaEsxYQomfjsBE3lLjeKNpCbijy2xASMt0YrMQnjnoq8XGDsHz6B8vHRtCETHfRbraJMyOHlfisCCvxaQOwbB6H5fNI0TbxVhHtuevbQwch5IkwaciLfrBf8xqvHfhgQ+4b8Zsh6T8H183khpLP/YUTclOJWyNE6TyOrWMfnF3CFUPWRgi/S4SrfceuyJIiP4d3l/LLv3QQzp36zPfJ7hjxyzBG2ya/O/CyeewQLivypgb81re8FNobiqz4uMqNVlZC3TAuXFPkqAR8tMf4VG1YkeUKC7U0DPhDBfh9LfQr4aIiPyrAh76clWEjW+y3QIY89+y/eNliZViR1ye9m0p+r1uTOD970juvyKtKKITMkFbhwLUWYaJYu024ZMSXhdpU6fd3D3nQe4iRPTytR4kLhnzv6ZsvDRuy2hnt+gH59UH7vNZ7OvBqabhNnDHyRxDGyvZ6j/c28hMYzkr8AYwQsM1gKE1pAAAAAElFTkSuQmCC">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuUlEQVR4nNXWv2oUcRDA8Z/B/c0S/yU2ksJCYhBrIWAhwSK+QCCN1gnkARS0EWzyCj6ACmnEQtvkARRMbZNWE3O/m0liROJXBu702OTM7e7dQgam2pnfh52dXTaEsxYQomfjsBE3lLjeKNpCbijy2xASMt0YrMQnjnoq8XGDsHz6B8vHRtCETHfRbraJMyOHlfisCCvxaQOwbB6H5fNI0TbxVhHtuevbQwch5IkwaciLfrBf8xqvHfhgQ+4b8Zsh6T8H183khpLP/YUTclOJWyNE6TyOrWMfnF3CFUPWRgi/S4SrfceuyJIiP4d3l/LLv3QQzp36zPfJ7hjxyzBG2ya/O/CyeewQLivypgb81re8FNobiqz4uMqNVlZC3TAuXFPkqAR8tMf4VG1YkeUKC7U0DPhDBfh9LfQr4aIiPyrAh76clWEjW+y3QIY89+y/eNliZViR1ye9m0p+r1uTOD970juvyKtKKITMkFbhwLUWYaJYu024ZMSXhdpU6fd3D3nQe4iRPTytR4kLhnzv6ZsvDRuy2hnt+gH59UH7vNZ7OvBqabhNnDHyRxDGyvZ6j/c28hMYzkr8AYwQsM1gKE1pAAAAAElFTkSuQmCC">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuUlEQVR4nNXWv2oUcRDA8Z/B/c0S/yU2ksJCYhBrIWAhwSK+QCCN1gnkARS0EWzyCj6ACmnEQtvkARRMbZNWE3O/m0liROJXBu702OTM7e7dQgam2pnfh52dXTaEsxYQomfjsBE3lLjeKNpCbijy2xASMt0YrMQnjnoq8XGDsHz6B8vHRtCETHfRbraJMyOHlfisCCvxaQOwbB6H5fNI0TbxVhHtuevbQwch5IkwaciLfrBf8xqvHfhgQ+4b8Zsh6T8H183khpLP/YUTclOJWyNE6TyOrWMfnF3CFUPWRgi/S4SrfceuyJIiP4d3l/LLv3QQzp36zPfJ7hjxyzBG2ya/O/CyeewQLivypgb81re8FNobiqz4uMqNVlZC3TAuXFPkqAR8tMf4VG1YkeUKC7U0DPhDBfh9LfQr4aIiPyrAh76clWEjW+y3QIY89+y/eNliZViR1ye9m0p+r1uTOD970juvyKtKKITMkFbhwLUWYaJYu024ZMSXhdpU6fd3D3nQe4iRPTytR4kLhnzv6ZsvDRuy2hnt+gH59UH7vNZ7OvBqabhNnDHyRxDGyvZ6j/c28hMYzkr8AYwQsM1gKE1pAAAAAElFTkSuQmCC">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuUlEQVR4nNXWv2oUcRDA8Z/B/c0S/yU2ksJCYhBrIWAhwSK+QCCN1gnkARS0EWzyCj6ACmnEQtvkARRMbZNWE3O/m0liROJXBu702OTM7e7dQgam2pnfh52dXTaEsxYQomfjsBE3lLjeKNpCbijy2xASMt0YrMQnjnoq8XGDsHz6B8vHRtCETHfRbraJMyOHlfisCCvxaQOwbB6H5fNI0TbxVhHtuevbQwch5IkwaciLfrBf8xqvHfhgQ+4b8Zsh6T8H183khpLP/YUTclOJWyNE6TyOrWMfnF3CFUPWRgi/S4SrfceuyJIiP4d3l/LLv3QQzp36zPfJ7hjxyzBG2ya/O/CyeewQLivypgb81re8FNobiqz4uMqNVlZC3TAuXFPkqAR8tMf4VG1YkeUKC7U0DPhDBfh9LfQr4aIiPyrAh76clWEjW+y3QIY89+y/eNliZViR1ye9m0p+r1uTOD970juvyKtKKITMkFbhwLUWYaJYu024ZMSXhdpU6fd3D3nQe4iRPTytR4kLhnzv6ZsvDRuy2hnt+gH59UH7vNZ7OvBqabhNnDHyRxDGyvZ6j/c28hMYzkr8AYwQsM1gKE1pAAAAAElFTkSuQmCC">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuUlEQVR4nNXWv2oUcRDA8Z/B/c0S/yU2ksJCYhBrIWAhwSK+QCCN1gnkARS0EWzyCj6ACmnEQtvkARRMbZNWE3O/m0liROJXBu702OTM7e7dQgam2pnfh52dXTaEsxYQomfjsBE3lLjeKNpCbijy2xASMt0YrMQnjnoq8XGDsHz6B8vHRtCETHfRbraJMyOHlfisCCvxaQOwbB6H5fNI0TbxVhHtuevbQwch5IkwaciLfrBf8xqvHfhgQ+4b8Zsh6T8H183khpLP/YUTclOJWyNE6TyOrWMfnF3CFUPWRgi/S4SrfceuyJIiP4d3l/LLv3QQzp36zPfJ7hjxyzBG2ya/O/CyeewQLivypgb81re8FNobiqz4uMqNVlZC3TAuXFPkqAR8tMf4VG1YkeUKC7U0DPhDBfh9LfQr4aIiPyrAh76clWEjW+y3QIY89+y/eNliZViR1ye9m0p+r1uTOD970juvyKtKKITMkFbhwLUWYaJYu024ZMSXhdpU6fd3D3nQe4iRPTytR4kLhnzv6ZsvDRuy2hnt+gH59UH7vNZ7OvBqabhNnDHyRxDGyvZ6j/c28hMYzkr8AYwQsM1gKE1pAAAAAElFTkSuQmCC">
+						</div>
+					</div>
+				</div>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam magnam saepe dolorum vitae. Sequi consequuntur, aliquid laudantium ad blanditiis cupiditate rem!</p>
+			</div>
+			<div class="review3">
+				<div class="name-place-rate">
+					<img src="person.png" alt="">
+					<div class="class">
+						<h3>Yassine abid</h3>
+						<p>casablanca,morocco</p>
+						<div class="stars">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuUlEQVR4nNXWv2oUcRDA8Z/B/c0S/yU2ksJCYhBrIWAhwSK+QCCN1gnkARS0EWzyCj6ACmnEQtvkARRMbZNWE3O/m0liROJXBu702OTM7e7dQgam2pnfh52dXTaEsxYQomfjsBE3lLjeKNpCbijy2xASMt0YrMQnjnoq8XGDsHz6B8vHRtCETHfRbraJMyOHlfisCCvxaQOwbB6H5fNI0TbxVhHtuevbQwch5IkwaciLfrBf8xqvHfhgQ+4b8Zsh6T8H183khpLP/YUTclOJWyNE6TyOrWMfnF3CFUPWRgi/S4SrfceuyJIiP4d3l/LLv3QQzp36zPfJ7hjxyzBG2ya/O/CyeewQLivypgb81re8FNobiqz4uMqNVlZC3TAuXFPkqAR8tMf4VG1YkeUKC7U0DPhDBfh9LfQr4aIiPyrAh76clWEjW+y3QIY89+y/eNliZViR1ye9m0p+r1uTOD970juvyKtKKITMkFbhwLUWYaJYu024ZMSXhdpU6fd3D3nQe4iRPTytR4kLhnzv6ZsvDRuy2hnt+gH59UH7vNZ7OvBqabhNnDHyRxDGyvZ6j/c28hMYzkr8AYwQsM1gKE1pAAAAAElFTkSuQmCC">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuUlEQVR4nNXWv2oUcRDA8Z/B/c0S/yU2ksJCYhBrIWAhwSK+QCCN1gnkARS0EWzyCj6ACmnEQtvkARRMbZNWE3O/m0liROJXBu702OTM7e7dQgam2pnfh52dXTaEsxYQomfjsBE3lLjeKNpCbijy2xASMt0YrMQnjnoq8XGDsHz6B8vHRtCETHfRbraJMyOHlfisCCvxaQOwbB6H5fNI0TbxVhHtuevbQwch5IkwaciLfrBf8xqvHfhgQ+4b8Zsh6T8H183khpLP/YUTclOJWyNE6TyOrWMfnF3CFUPWRgi/S4SrfceuyJIiP4d3l/LLv3QQzp36zPfJ7hjxyzBG2ya/O/CyeewQLivypgb81re8FNobiqz4uMqNVlZC3TAuXFPkqAR8tMf4VG1YkeUKC7U0DPhDBfh9LfQr4aIiPyrAh76clWEjW+y3QIY89+y/eNliZViR1ye9m0p+r1uTOD970juvyKtKKITMkFbhwLUWYaJYu024ZMSXhdpU6fd3D3nQe4iRPTytR4kLhnzv6ZsvDRuy2hnt+gH59UH7vNZ7OvBqabhNnDHyRxDGyvZ6j/c28hMYzkr8AYwQsM1gKE1pAAAAAElFTkSuQmCC">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuUlEQVR4nNXWv2oUcRDA8Z/B/c0S/yU2ksJCYhBrIWAhwSK+QCCN1gnkARS0EWzyCj6ACmnEQtvkARRMbZNWE3O/m0liROJXBu702OTM7e7dQgam2pnfh52dXTaEsxYQomfjsBE3lLjeKNpCbijy2xASMt0YrMQnjnoq8XGDsHz6B8vHRtCETHfRbraJMyOHlfisCCvxaQOwbB6H5fNI0TbxVhHtuevbQwch5IkwaciLfrBf8xqvHfhgQ+4b8Zsh6T8H183khpLP/YUTclOJWyNE6TyOrWMfnF3CFUPWRgi/S4SrfceuyJIiP4d3l/LLv3QQzp36zPfJ7hjxyzBG2ya/O/CyeewQLivypgb81re8FNobiqz4uMqNVlZC3TAuXFPkqAR8tMf4VG1YkeUKC7U0DPhDBfh9LfQr4aIiPyrAh76clWEjW+y3QIY89+y/eNliZViR1ye9m0p+r1uTOD970juvyKtKKITMkFbhwLUWYaJYu024ZMSXhdpU6fd3D3nQe4iRPTytR4kLhnzv6ZsvDRuy2hnt+gH59UH7vNZ7OvBqabhNnDHyRxDGyvZ6j/c28hMYzkr8AYwQsM1gKE1pAAAAAElFTkSuQmCC">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuUlEQVR4nNXWv2oUcRDA8Z/B/c0S/yU2ksJCYhBrIWAhwSK+QCCN1gnkARS0EWzyCj6ACmnEQtvkARRMbZNWE3O/m0liROJXBu702OTM7e7dQgam2pnfh52dXTaEsxYQomfjsBE3lLjeKNpCbijy2xASMt0YrMQnjnoq8XGDsHz6B8vHRtCETHfRbraJMyOHlfisCCvxaQOwbB6H5fNI0TbxVhHtuevbQwch5IkwaciLfrBf8xqvHfhgQ+4b8Zsh6T8H183khpLP/YUTclOJWyNE6TyOrWMfnF3CFUPWRgi/S4SrfceuyJIiP4d3l/LLv3QQzp36zPfJ7hjxyzBG2ya/O/CyeewQLivypgb81re8FNobiqz4uMqNVlZC3TAuXFPkqAR8tMf4VG1YkeUKC7U0DPhDBfh9LfQr4aIiPyrAh76clWEjW+y3QIY89+y/eNliZViR1ye9m0p+r1uTOD970juvyKtKKITMkFbhwLUWYaJYu024ZMSXhdpU6fd3D3nQe4iRPTytR4kLhnzv6ZsvDRuy2hnt+gH59UH7vNZ7OvBqabhNnDHyRxDGyvZ6j/c28hMYzkr8AYwQsM1gKE1pAAAAAElFTkSuQmCC">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuUlEQVR4nNXWv2oUcRDA8Z/B/c0S/yU2ksJCYhBrIWAhwSK+QCCN1gnkARS0EWzyCj6ACmnEQtvkARRMbZNWE3O/m0liROJXBu702OTM7e7dQgam2pnfh52dXTaEsxYQomfjsBE3lLjeKNpCbijy2xASMt0YrMQnjnoq8XGDsHz6B8vHRtCETHfRbraJMyOHlfisCCvxaQOwbB6H5fNI0TbxVhHtuevbQwch5IkwaciLfrBf8xqvHfhgQ+4b8Zsh6T8H183khpLP/YUTclOJWyNE6TyOrWMfnF3CFUPWRgi/S4SrfceuyJIiP4d3l/LLv3QQzp36zPfJ7hjxyzBG2ya/O/CyeewQLivypgb81re8FNobiqz4uMqNVlZC3TAuXFPkqAR8tMf4VG1YkeUKC7U0DPhDBfh9LfQr4aIiPyrAh76clWEjW+y3QIY89+y/eNliZViR1ye9m0p+r1uTOD970juvyKtKKITMkFbhwLUWYaJYu024ZMSXhdpU6fd3D3nQe4iRPTytR4kLhnzv6ZsvDRuy2hnt+gH59UH7vNZ7OvBqabhNnDHyRxDGyvZ6j/c28hMYzkr8AYwQsM1gKE1pAAAAAElFTkSuQmCC">
+						</div>
+					</div>
+				</div>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam magnam saepe dolorum vitae. Sequi consequuntur, aliquid laudantium ad blanditiis cupiditate rem!</p>
+			</div>
+			<div class="review4">
+				<div class="name-place-rate">
+					<img src="c4.png" alt="">
+					<div class="class">
+						<h3>Anas Saber</h3>
+						<p>casablanca,morocco</p>
+						<div class="stars">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuUlEQVR4nNXWv2oUcRDA8Z/B/c0S/yU2ksJCYhBrIWAhwSK+QCCN1gnkARS0EWzyCj6ACmnEQtvkARRMbZNWE3O/m0liROJXBu702OTM7e7dQgam2pnfh52dXTaEsxYQomfjsBE3lLjeKNpCbijy2xASMt0YrMQnjnoq8XGDsHz6B8vHRtCETHfRbraJMyOHlfisCCvxaQOwbB6H5fNI0TbxVhHtuevbQwch5IkwaciLfrBf8xqvHfhgQ+4b8Zsh6T8H183khpLP/YUTclOJWyNE6TyOrWMfnF3CFUPWRgi/S4SrfceuyJIiP4d3l/LLv3QQzp36zPfJ7hjxyzBG2ya/O/CyeewQLivypgb81re8FNobiqz4uMqNVlZC3TAuXFPkqAR8tMf4VG1YkeUKC7U0DPhDBfh9LfQr4aIiPyrAh76clWEjW+y3QIY89+y/eNliZViR1ye9m0p+r1uTOD970juvyKtKKITMkFbhwLUWYaJYu024ZMSXhdpU6fd3D3nQe4iRPTytR4kLhnzv6ZsvDRuy2hnt+gH59UH7vNZ7OvBqabhNnDHyRxDGyvZ6j/c28hMYzkr8AYwQsM1gKE1pAAAAAElFTkSuQmCC">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuUlEQVR4nNXWv2oUcRDA8Z/B/c0S/yU2ksJCYhBrIWAhwSK+QCCN1gnkARS0EWzyCj6ACmnEQtvkARRMbZNWE3O/m0liROJXBu702OTM7e7dQgam2pnfh52dXTaEsxYQomfjsBE3lLjeKNpCbijy2xASMt0YrMQnjnoq8XGDsHz6B8vHRtCETHfRbraJMyOHlfisCCvxaQOwbB6H5fNI0TbxVhHtuevbQwch5IkwaciLfrBf8xqvHfhgQ+4b8Zsh6T8H183khpLP/YUTclOJWyNE6TyOrWMfnF3CFUPWRgi/S4SrfceuyJIiP4d3l/LLv3QQzp36zPfJ7hjxyzBG2ya/O/CyeewQLivypgb81re8FNobiqz4uMqNVlZC3TAuXFPkqAR8tMf4VG1YkeUKC7U0DPhDBfh9LfQr4aIiPyrAh76clWEjW+y3QIY89+y/eNliZViR1ye9m0p+r1uTOD970juvyKtKKITMkFbhwLUWYaJYu024ZMSXhdpU6fd3D3nQe4iRPTytR4kLhnzv6ZsvDRuy2hnt+gH59UH7vNZ7OvBqabhNnDHyRxDGyvZ6j/c28hMYzkr8AYwQsM1gKE1pAAAAAElFTkSuQmCC">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuUlEQVR4nNXWv2oUcRDA8Z/B/c0S/yU2ksJCYhBrIWAhwSK+QCCN1gnkARS0EWzyCj6ACmnEQtvkARRMbZNWE3O/m0liROJXBu702OTM7e7dQgam2pnfh52dXTaEsxYQomfjsBE3lLjeKNpCbijy2xASMt0YrMQnjnoq8XGDsHz6B8vHRtCETHfRbraJMyOHlfisCCvxaQOwbB6H5fNI0TbxVhHtuevbQwch5IkwaciLfrBf8xqvHfhgQ+4b8Zsh6T8H183khpLP/YUTclOJWyNE6TyOrWMfnF3CFUPWRgi/S4SrfceuyJIiP4d3l/LLv3QQzp36zPfJ7hjxyzBG2ya/O/CyeewQLivypgb81re8FNobiqz4uMqNVlZC3TAuXFPkqAR8tMf4VG1YkeUKC7U0DPhDBfh9LfQr4aIiPyrAh76clWEjW+y3QIY89+y/eNliZViR1ye9m0p+r1uTOD970juvyKtKKITMkFbhwLUWYaJYu024ZMSXhdpU6fd3D3nQe4iRPTytR4kLhnzv6ZsvDRuy2hnt+gH59UH7vNZ7OvBqabhNnDHyRxDGyvZ6j/c28hMYzkr8AYwQsM1gKE1pAAAAAElFTkSuQmCC">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuUlEQVR4nNXWv2oUcRDA8Z/B/c0S/yU2ksJCYhBrIWAhwSK+QCCN1gnkARS0EWzyCj6ACmnEQtvkARRMbZNWE3O/m0liROJXBu702OTM7e7dQgam2pnfh52dXTaEsxYQomfjsBE3lLjeKNpCbijy2xASMt0YrMQnjnoq8XGDsHz6B8vHRtCETHfRbraJMyOHlfisCCvxaQOwbB6H5fNI0TbxVhHtuevbQwch5IkwaciLfrBf8xqvHfhgQ+4b8Zsh6T8H183khpLP/YUTclOJWyNE6TyOrWMfnF3CFUPWRgi/S4SrfceuyJIiP4d3l/LLv3QQzp36zPfJ7hjxyzBG2ya/O/CyeewQLivypgb81re8FNobiqz4uMqNVlZC3TAuXFPkqAR8tMf4VG1YkeUKC7U0DPhDBfh9LfQr4aIiPyrAh76clWEjW+y3QIY89+y/eNliZViR1ye9m0p+r1uTOD970juvyKtKKITMkFbhwLUWYaJYu024ZMSXhdpU6fd3D3nQe4iRPTytR4kLhnzv6ZsvDRuy2hnt+gH59UH7vNZ7OvBqabhNnDHyRxDGyvZ6j/c28hMYzkr8AYwQsM1gKE1pAAAAAElFTkSuQmCC">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuUlEQVR4nNXWv2oUcRDA8Z/B/c0S/yU2ksJCYhBrIWAhwSK+QCCN1gnkARS0EWzyCj6ACmnEQtvkARRMbZNWE3O/m0liROJXBu702OTM7e7dQgam2pnfh52dXTaEsxYQomfjsBE3lLjeKNpCbijy2xASMt0YrMQnjnoq8XGDsHz6B8vHRtCETHfRbraJMyOHlfisCCvxaQOwbB6H5fNI0TbxVhHtuevbQwch5IkwaciLfrBf8xqvHfhgQ+4b8Zsh6T8H183khpLP/YUTclOJWyNE6TyOrWMfnF3CFUPWRgi/S4SrfceuyJIiP4d3l/LLv3QQzp36zPfJ7hjxyzBG2ya/O/CyeewQLivypgb81re8FNobiqz4uMqNVlZC3TAuXFPkqAR8tMf4VG1YkeUKC7U0DPhDBfh9LfQr4aIiPyrAh76clWEjW+y3QIY89+y/eNliZViR1ye9m0p+r1uTOD970juvyKtKKITMkFbhwLUWYaJYu024ZMSXhdpU6fd3D3nQe4iRPTytR4kLhnzv6ZsvDRuy2hnt+gH59UH7vNZ7OvBqabhNnDHyRxDGyvZ6j/c28hMYzkr8AYwQsM1gKE1pAAAAAElFTkSuQmCC">
+						</div>
+					</div>
+				</div>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam magnam saepe dolorum vitae. Sequi consequuntur, aliquid laudantium ad blanditiis cupiditate rem!</p>
+			</div>
+			<div class="review5">
+				<div class="name-place-rate">
+					<img src="c3.png" alt="">
+					<div class="class">
+						<h3>Karim Ahmed</h3>
+						<p>casablanca,morocco</p>
+						<div class="stars">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuUlEQVR4nNXWv2oUcRDA8Z/B/c0S/yU2ksJCYhBrIWAhwSK+QCCN1gnkARS0EWzyCj6ACmnEQtvkARRMbZNWE3O/m0liROJXBu702OTM7e7dQgam2pnfh52dXTaEsxYQomfjsBE3lLjeKNpCbijy2xASMt0YrMQnjnoq8XGDsHz6B8vHRtCETHfRbraJMyOHlfisCCvxaQOwbB6H5fNI0TbxVhHtuevbQwch5IkwaciLfrBf8xqvHfhgQ+4b8Zsh6T8H183khpLP/YUTclOJWyNE6TyOrWMfnF3CFUPWRgi/S4SrfceuyJIiP4d3l/LLv3QQzp36zPfJ7hjxyzBG2ya/O/CyeewQLivypgb81re8FNobiqz4uMqNVlZC3TAuXFPkqAR8tMf4VG1YkeUKC7U0DPhDBfh9LfQr4aIiPyrAh76clWEjW+y3QIY89+y/eNliZViR1ye9m0p+r1uTOD970juvyKtKKITMkFbhwLUWYaJYu024ZMSXhdpU6fd3D3nQe4iRPTytR4kLhnzv6ZsvDRuy2hnt+gH59UH7vNZ7OvBqabhNnDHyRxDGyvZ6j/c28hMYzkr8AYwQsM1gKE1pAAAAAElFTkSuQmCC">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuUlEQVR4nNXWv2oUcRDA8Z/B/c0S/yU2ksJCYhBrIWAhwSK+QCCN1gnkARS0EWzyCj6ACmnEQtvkARRMbZNWE3O/m0liROJXBu702OTM7e7dQgam2pnfh52dXTaEsxYQomfjsBE3lLjeKNpCbijy2xASMt0YrMQnjnoq8XGDsHz6B8vHRtCETHfRbraJMyOHlfisCCvxaQOwbB6H5fNI0TbxVhHtuevbQwch5IkwaciLfrBf8xqvHfhgQ+4b8Zsh6T8H183khpLP/YUTclOJWyNE6TyOrWMfnF3CFUPWRgi/S4SrfceuyJIiP4d3l/LLv3QQzp36zPfJ7hjxyzBG2ya/O/CyeewQLivypgb81re8FNobiqz4uMqNVlZC3TAuXFPkqAR8tMf4VG1YkeUKC7U0DPhDBfh9LfQr4aIiPyrAh76clWEjW+y3QIY89+y/eNliZViR1ye9m0p+r1uTOD970juvyKtKKITMkFbhwLUWYaJYu024ZMSXhdpU6fd3D3nQe4iRPTytR4kLhnzv6ZsvDRuy2hnt+gH59UH7vNZ7OvBqabhNnDHyRxDGyvZ6j/c28hMYzkr8AYwQsM1gKE1pAAAAAElFTkSuQmCC">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuUlEQVR4nNXWv2oUcRDA8Z/B/c0S/yU2ksJCYhBrIWAhwSK+QCCN1gnkARS0EWzyCj6ACmnEQtvkARRMbZNWE3O/m0liROJXBu702OTM7e7dQgam2pnfh52dXTaEsxYQomfjsBE3lLjeKNpCbijy2xASMt0YrMQnjnoq8XGDsHz6B8vHRtCETHfRbraJMyOHlfisCCvxaQOwbB6H5fNI0TbxVhHtuevbQwch5IkwaciLfrBf8xqvHfhgQ+4b8Zsh6T8H183khpLP/YUTclOJWyNE6TyOrWMfnF3CFUPWRgi/S4SrfceuyJIiP4d3l/LLv3QQzp36zPfJ7hjxyzBG2ya/O/CyeewQLivypgb81re8FNobiqz4uMqNVlZC3TAuXFPkqAR8tMf4VG1YkeUKC7U0DPhDBfh9LfQr4aIiPyrAh76clWEjW+y3QIY89+y/eNliZViR1ye9m0p+r1uTOD970juvyKtKKITMkFbhwLUWYaJYu024ZMSXhdpU6fd3D3nQe4iRPTytR4kLhnzv6ZsvDRuy2hnt+gH59UH7vNZ7OvBqabhNnDHyRxDGyvZ6j/c28hMYzkr8AYwQsM1gKE1pAAAAAElFTkSuQmCC">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuUlEQVR4nNXWv2oUcRDA8Z/B/c0S/yU2ksJCYhBrIWAhwSK+QCCN1gnkARS0EWzyCj6ACmnEQtvkARRMbZNWE3O/m0liROJXBu702OTM7e7dQgam2pnfh52dXTaEsxYQomfjsBE3lLjeKNpCbijy2xASMt0YrMQnjnoq8XGDsHz6B8vHRtCETHfRbraJMyOHlfisCCvxaQOwbB6H5fNI0TbxVhHtuevbQwch5IkwaciLfrBf8xqvHfhgQ+4b8Zsh6T8H183khpLP/YUTclOJWyNE6TyOrWMfnF3CFUPWRgi/S4SrfceuyJIiP4d3l/LLv3QQzp36zPfJ7hjxyzBG2ya/O/CyeewQLivypgb81re8FNobiqz4uMqNVlZC3TAuXFPkqAR8tMf4VG1YkeUKC7U0DPhDBfh9LfQr4aIiPyrAh76clWEjW+y3QIY89+y/eNliZViR1ye9m0p+r1uTOD970juvyKtKKITMkFbhwLUWYaJYu024ZMSXhdpU6fd3D3nQe4iRPTytR4kLhnzv6ZsvDRuy2hnt+gH59UH7vNZ7OvBqabhNnDHyRxDGyvZ6j/c28hMYzkr8AYwQsM1gKE1pAAAAAElFTkSuQmCC">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuUlEQVR4nNXWv2oUcRDA8Z/B/c0S/yU2ksJCYhBrIWAhwSK+QCCN1gnkARS0EWzyCj6ACmnEQtvkARRMbZNWE3O/m0liROJXBu702OTM7e7dQgam2pnfh52dXTaEsxYQomfjsBE3lLjeKNpCbijy2xASMt0YrMQnjnoq8XGDsHz6B8vHRtCETHfRbraJMyOHlfisCCvxaQOwbB6H5fNI0TbxVhHtuevbQwch5IkwaciLfrBf8xqvHfhgQ+4b8Zsh6T8H183khpLP/YUTclOJWyNE6TyOrWMfnF3CFUPWRgi/S4SrfceuyJIiP4d3l/LLv3QQzp36zPfJ7hjxyzBG2ya/O/CyeewQLivypgb81re8FNobiqz4uMqNVlZC3TAuXFPkqAR8tMf4VG1YkeUKC7U0DPhDBfh9LfQr4aIiPyrAh76clWEjW+y3QIY89+y/eNliZViR1ye9m0p+r1uTOD970juvyKtKKITMkFbhwLUWYaJYu024ZMSXhdpU6fd3D3nQe4iRPTytR4kLhnzv6ZsvDRuy2hnt+gH59UH7vNZ7OvBqabhNnDHyRxDGyvZ6j/c28hMYzkr8AYwQsM1gKE1pAAAAAElFTkSuQmCC">
+						</div>
+					</div>
+				</div>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam magnam saepe dolorum vitae. Sequi consequuntur, aliquid laudantium ad blanditiis cupiditate rem!</p>
+			</div>
+		</div>
+	</div>
+	<div id="blog-page">
+		<h3 class="title">NEWS AND ARTICLES</h3>
+		<p class="mini-one">Always upto date with our latest News and Articles</p>
+		<div class="articles">
+			<div class="article1">
+				<img src="b1.jpg" alt=""  width="400px">
+				<h3>How to find your desired place more quickly</h3>
+				<div class="postDate-time">
+					<p class="posted">Posted by <span>ADMIN</span></p>
+					<p class="time">March 2045</p>
+				</div>
+				<p class="paragraph">Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod tempore incididunt ut labore et dolore magna.</p>
+			</div>
+			<div class="article2">
+				<img src="b2.jpg" alt="" width="400px">
+				<h3>How to find your desired place more quickly</h3>
+				<div class="postDate-time">
+					<p class="posted">Posted by <span>ADMIN</span></p>
+					<p class="time">March 2045</p>
+				</div>
+				<p class="paragraph">Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod tempore incididunt ut labore et dolore magna.</p>
+			</div>
+			<div class="article3">
+				<img src="b3.jpg" alt=""  width="400px">
+				<h3>How to find your desired place more quickly</h3>
+				<div class="postDate-time">
+					<p class="posted">Posted by <span>ADMIN</span></p>
+					<p class="time">March 2045</p>
+				</div>
+				<p class="paragraph">Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod tempore incididunt ut labore et dolore magna.</p>
+			</div>
+		</div>
+	</div>
+	<div id="contact-page">
+		<h3>DO YOU WANT TO ADD YOUR BUSINESS LISTING WITH US?</h3>
+		<p>Listrace offer you to list your business with us and we very much able to promote your Business.</p>
+		<div class="contact">
+			<input type="text" placeholder="enter your email here">
+			<button>Create account</button>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="header">
+			<p>List <span>Race</span></p>
+			<ul>
+				<li><a href="#home" class="home">Home</a></li>
+				<li><a href="#how-it-work-page">How it work</a></li>
+				<li><a href="#explore-page">Explore</a></li>
+				<li><a href="#review-page">Review</a></li>
+				<li><a href="#blog-page">Blog</a></li>
+				<li><a href="#contact-page">Contact</a></li>
+			</ul>
+		</div>
+		<div class="foot">
+			<div class="right">
+				<p>© Copyright. Designed And Developed By Themesine</p>
+			</div>
+			<div class="left">
+				<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA6klEQVR4nO2UrQrCYBSGH7TbBGHBoFehUS/AYBYvQZNeik2wKOwSFOwGiwNBtApWFQ06J4MzGPJN2HaW9IWT9vE+nJ+98FdMNYED4AEusAIqKGov5uGaagKOBoCjCVgaAGdNwMgAcIG8FqBrACxQVAG4hcy3QAll2WLuX1SRDFQHXrJci4w0ky7srABl4CqQflaQlpyoX+0v73JpIEPp4gn0Pr75BzAP7cuRWKnGhQyki2AnlphvDP+MJwGZaFyXUHSYQjGoBwllARMZSZR5MM5Uqsmo7hEAvzu1WOkAY2ANnIAd0NAC8Bt6A9vPYU+qAWblAAAAAElFTkSuQmCC">
+				<p>+1 (222) 777 8888</p>
+				<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACd0lEQVR4nO2Zv2sUQRTHP+evwigSrCyiAWOpTXpBxcRcCkn8BVrZif+AjUJQSA5Jo4VpbMQiJtrE/CCojZ3YGEQx9nYaE6PRxOJWBp4Qwu7czuzb3Tm4L3zhmn1vPszsm7fvoKWWgtceoArUgGlgEfgO/BWb35+A58AI0CfPBKGKLGgSWAciR/8BJoAzEqsUXQDeeyw+yQvAYJEAR4BXigBb/QLoyhviHLCSI0QkXgUu5wFgzu9QAQDRFtc03x0TaKwEiEj8QAtmpESISHwnK8SlACAi8ZUs1emn0iLMffFQSraJux/YB7QDncBRYLRBjB/AYR8QrRL7EjiQIt/VFLHmXSHOK0HMAjtS5kwDYjyQFqKidGN/kyOEMsi7tFWsT2k3hh0gXEAioDdNwEklkGOWHN3Afcn1328dYo83gtjr2cXGVZjtFoiNjPF/A7ttIFXFTjZJj5Ry9NhAakpJXltyfCniHZxWSjKXEL8iX4saOaZsIJ8V74847VKKH8lnc6KWmgjkqw1ko4lA1rVBBqT522zbdKQ9wXcd85q1JmrZA+Q0Onri0QIlarFEENNDueT9aAs2WxLINmBNs/wOlwRySPvzt98j4HXpnza7y3Ihdsf4mkfeXhuIacR+eQQtuvyuAW2NtvlpE4BMkEI9TQByKg2IOccfAgZZwEFnAwapUuA4KC+QeTzUKVPxUEBWgIN4yjSE9QBA6sBFMup2ACBDKOleiSCjKOuGwzHTAKlr7kTcX2/LBYAsucx4s3SqMzmCTAEdFKh+y5jTB+SNzJ1L03HgsYxJXUFWZfJoYgQjs8iTwE0pDHHaCTwDbgEn5JmWWiJg/QOlYrQmouYwLQAAAABJRU5ErkJggg==">
+				<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADPklEQVR4nO2aT0hVQRTGf2n1jMgMTKNNRlYbaxXRqlVoQX8kWpi2K6ggydwX7SJtUVlGUZugTdDGtDJo0cKQaFNQ/ifKWiUhRJRZTgycB3K7776ZuXPfu4QffCB473fPd2fmzJlzHyzg/8UqoBHoBPqAYeArMCPUfw/J//Q1B4AKUoIM0AL0A78BZUl9z2OgWbQKjmVAO/DZIfhc/AS0AWWFMrEHGPdoIMgxoCFJA3roryRoIMi7MvJeUQ28KqAJJXwJVPkyUSPDrYrEUYkhFlZLGlVF5jiwxtVEWZGmk4qYZk4p+kYKglcBdrmkWJVS1pua0MM3koKAVQ6OmW6a7SkIVuXhaZPR8Fl2BPkNuABsk4xYCxwF3gauewNMR+hM5lv4LYYBPRLaTgkdeBgWA5eBblkDOw30DkcZ6TcM6hCwHHhqeP0PYDNmWAtMAB8MXmbO84RpKb5V7llqmKavG5oolYxZBzzIozkLlIeJNFpMk+2Be/cD7yOut6lmS8W4SRz7wgQuWRg5GXK/ToknQhbu/BE0wS2LODrCBHotBF7LAs2FLXJIugcMhIxgFAYs4ngYJjBqITAtI5gEJizi0AXtP5iyEKiTRRm7vA7Bd4s4voQJzFgIHCEZbLSIQfNnXCODQEkCRk75MGIztTTPJ2Ck1zKG0KnlUvHelvO8D2xw6I0N+XgbmheBY8BKD0Zs9o8se8KEOh2EdHniA5ss16ia9yJjlShZzgHHY5pYIsnD9tmae8MEKxz7t3+AOzH2FJvSSM3jr1xFo8YTR9Esu/OULkGcifGs3ijhZkfRZ7LTm6JETopxXlpT1AMy0hWPEngOXAXOipht46xWNOKY+ChnoUi0GSzw+8AOh/KjyzE7qQBbTR5YZtHrfSdp+6Ck0Epgkewr64HdwDnghbwA5YHDNh3HBk8P9c05YJflTOBaCgJXAepOizUy0jhWKeGgyQLPhcoUfVaoJiZqLI/BvjkCrMMTqoo0zQaltZrIx1BfaTQfbyb97b0+4ak27JJiXZGR1v6kRwO67Ggt1i8gMtIV75NerG3ws1LFNsVJrb5RLr3YDukADklDI/ujmikpaXrkZKcPRSu8R7EA0oG/Ji0UmDJadlMAAAAASUVORK5CYII=">
+				<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACvElEQVR4nO2ZTWsUQRCGn0P04pLE+3oQs1nBi/h1EPVg9GziX1GTP6CoR2MOGvHjP4gRsxtJBH+Cq7nHk27EGIyXtaWgGoaB+ejpWbsX9oUX9jBVXe9OVXVNN4wxRhRoA0tAF/gM7AOmJoov8dkBFnWt2nEO2Kgx6LL8CFysQ8AhYAX4G0CEUcraj4GJqiKOAu8DCjApbmhMzm8iRCqZAn4ADrsIWYkgaJPBZZfCDlkTpoAS29kyQmJMKZOitOhctAMH+AZoKtcKnm3lCVkKLKSZiOVYwbN38oR0RkjIep6Q7RqC6QPPgRuaqkeU8nseeAHsZtiuqQDh24J1vuQJ2fMQ8Bu4C0xSjCngntpUXW8vb4GqTndSLfE68Ez/tf3EQLgKXEu1+h2PdTNRVYTN7Vlgq4TNZqLrND3EZKJKOtk3cSUn97Nq6bLangcOQgqRmrBvwkVEUsyM+ngQSkhfi5aS6ZRFmbAF0xX+jFqESIu1hW08Oae+XoYQIvsE2p18hTxVXwshhEhdoC3WV4i0ZkE7hJCG2vyqQYj4EDRGXchP9TU56qnVC5la82qzWoOQJ+rrZgghMsWis5OvkKvq61XoDXHTQ4R8WtsN8UcIIUZHccFx4JvniPKwgn1tQg50FEcHwL6D7XfgktpeCD00mtQYP1PydFLS6YTayNfg14prZ8J4iJFR3GJOx46e7jPCT9qdbGHbN1FVhBnWp66kxn0t2iJMa038Gdan7raHY8tdnWJlADypE0BDfy9oi3XtTsb18CH0cZBx4Ls8IYsRBGhK8laekFYEARrHWS8T3QiCND6njBangUEEwZoMDspeK6B3diZSPsIBE5Gm2Jbr1Rt68RjTpU+35Gab+WaWA1/FDTSdKl9PJ3EKeB1ARAc4wxDQ0puidT3CqePgwVJ89XTHvl10tTbGGPwf/APThWw4L8JxcwAAAABJRU5ErkJggg==">
+				<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC6klEQVR4nO2Zy2sUQRDGf+4uiATBRBTy8CBJiHpSUJM/QvBBiHoTT4p38zhqYiJBSTAS8Swo6IqYu4f4AgXBkFu8qFF8JPEgmMQHIw210Azpnp7Z3pld2A+K3Zn9urpqprqquhfqqKMOH8gBPcAQUATmgRXgt8iK3HsADALdMiZztAGjwCIQxJSPwBWgNQvDtwPTwHoCw8OyBtwEmtIy/hSw5MHwsHwH+ippeEGeelBhmZK5vGILMJOC8YHIY5nTC/LAwxSND0RmfL2JNMImMMgNHws2yFh6kxrfJJkhaweWJG3XVOgE5YZSm2OR+gs8BW4BYzLRrLQPPh1YA1riODAaoXAVuArsMIzfCYwIz5cTI3HS5mJED3PAUdcRjw68d20AeyxKloH2EH8XcBa4CJwOverdnkPpsIsDQxYFxzTeZin7fzaIV7UmTgJPHIxaAK7JZxS338WBomHwC42Tk3Lv46m2i85OB+59FwfmDYPPa5wzHsNCRxR3DgcsGwZ3aZxnhlAYl3SqiwqPNxaujjG5bwonVVgjYcr/WzXOT0somDLbPUeuLZzU+krsQEOEAx0RevfH4HaW44AphPZqnFlDCF2STFGSo9qYfQauDnV9GXhXTgiZFvGFBF3qcW3MubQWcdEw+BWwSTjq827EZHdClfO1gdfhO40OWhSo4lRCQbJGeM38kvv6bqrPonMBuG4Jm9iFrNui4AewJ8RvlrowIC2FutbRZVlXQUw56OJATho2k5LP4qQLDgGf0m7mkBMzmzIVNhOWHr1ZCpjPfcEwMdAqOTdK6T/gOXBbnFZN3EvZ6AQeZTXuhgY57guqRCZJuKn/VgXGfwUaSQhb+ktLTlAmpjI0fgIPyFuqc00cLSIHrb52YC7yyOfhbgkFOfdJI+PkqSB6JTP4NvyLjwXrikZ5Gy7FzqVITQLbyAAtcmL2IWFvM7xB85cJcnLoNCA9+5x0oOsi6vtb+a1fmryq+Ju1jjqocfwH8QIzZako87QAAAAASUVORK5CYII=">
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
